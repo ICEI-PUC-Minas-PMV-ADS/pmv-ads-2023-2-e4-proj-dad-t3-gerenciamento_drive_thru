@@ -17,17 +17,14 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|Consumidor | Comprar online e retirar meu pedido quando ele já estiver pronto | Ter comida fresca e de qualidade sem que para isso eu precise cozinhar |
+|Consumidor | Poder efetuar minha compra de casa mesmo que eu me dirija até o restaurante | Não ter que esperar pelo garçom e poder eu mesmo acompanhar o status do meu pedido |
+|Funcionário| Efetuar o pedido do cliente usando o sistema do restaurante | Atender o cliente usando a mesma base de dados usada pelo pessoal da cozinha e gerencia podendo atender dentro das regras de negócio |
+|Funcionário| Acompanhar o status do pedido do cliente| Buscar o prato do cliente e saber responder àqueles que me perguntam sobre o status do pedido |
+|Gerente | Um sistema integrado para o restaurante | cozinheiros, funcionários e consumidores tenham acesso ao mesmo estoque de produtos para evitar falta de insumos e para que todas as movimentações financeiras fiquem centralizadas em um mesmo lugar|
+|Gerente | Gerar relatórios financeiros |Identificar como anda o faturamento do restaurante e tomar decisões gerenciais a respeito |
+|Gerente | Cadastrar e descadastrar a quantidade de cada prato disponível de acordo com os ingredientes que tenho em estoque | Evitar que um cliente faça um pedido que não possa ser atendido |
+|Gerente | Gerar relatórios do estoque do restaurante | Planejar as compras semanais |
 
 ## Modelagem do Processo de Negócio 
 
