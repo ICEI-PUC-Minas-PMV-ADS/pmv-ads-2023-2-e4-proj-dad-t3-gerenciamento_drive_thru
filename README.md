@@ -6,7 +6,7 @@
 
 `4º Semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Nossa aplicação distribuída tem como objetivo simplificar e otimizar a experiência dos clientes no drive thru. Ao oferecer uma solução intuitiva e eficaz, estamos transformando a maneira como os pedidos são feitos nesse ambiente. Com a aplicação, os clientes podem realizar seus pedidos de forma rápida e conveniente, utilizando a tecnologia para agilizar o processo.
 
 ## Integrantes
 
