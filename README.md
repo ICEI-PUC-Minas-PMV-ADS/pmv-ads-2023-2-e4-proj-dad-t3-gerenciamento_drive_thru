@@ -2,9 +2,9 @@
 
 `Análise e Desenvolvimento de Sistemas - PUC MINAS`
 
-`Projeto: Desenvolvimento de uma Aplicação Distribuída`
+`Eixo 4- Projeto: Desenvolvimento de uma Aplicação Distribuída`
 
-`2/2023`
+`4º Semestre`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
