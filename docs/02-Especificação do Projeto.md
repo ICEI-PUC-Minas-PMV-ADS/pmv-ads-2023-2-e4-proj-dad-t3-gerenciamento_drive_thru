@@ -8,8 +8,8 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 ![Persona 1](img/Persona1.jpg)
-![Persona 2](img/Persona2.png)
-![Persona 3](img/Persona3.png)
+![Persona 2](img/Persona2.jpg)
+![Persona 3](img/Persona3.jpg)
 
 ## Histórias de Usuários
 
