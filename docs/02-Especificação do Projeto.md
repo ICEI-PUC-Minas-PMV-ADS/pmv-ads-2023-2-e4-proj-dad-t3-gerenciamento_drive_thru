@@ -7,7 +7,7 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas
-![Persona 1](img/Persona1.png)
+![Persona 1](docs/img/Persona1.jpg)
 ![Persona 2](img/Persona2.png)
 ![Persona 3](img/Persona3.png)
 
