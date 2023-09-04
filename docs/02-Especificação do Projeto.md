@@ -67,13 +67,34 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
 |RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-003| Possuir interfaces customizadas para 3 tipos de usuários   | ALTA |
+|RF-004| Os 3 tipos de usuários poderão realizar login no sistema   |  |
+|RF-005| Os 3 tipos de usuários poderão consultar e alterar dados pessoais de acordo com as regras de negócio.  |  |
+|RF-006| Os 3 tipos de usuários poderão realizar alteração de senha  |  |
+|RF-007| O consumidor poderá realizar pedidos  |  |
+|RF-008| O consumidor e o funcionário poderão acompanhar o status dos pedidos registrados por eles  |  |
+|RF-009| O consumidor poderá deixar suas observações em relação ao prato consumido  |  |
+|RF-010| O consumidor poderá realizar cadastro no sistema  |  |
+|RF-011| O consumidor poderá excluir o cadastro do sistema  |  |
+|RF-012| O funcionário poderá lançar os pedidos dos clientes locais de acordo com a mesa em que se encontra  |  |
+|RF-013| O funcionário poderá atualizar o status de todos os pedidos do estabelecimento  |  |
+|RF-014| O funcionário e o gerente poderão acompanhar o status de todos os pedidos do estabelecimento  |  |
+|RF-015| O gerente poderá adicionar e remover produtos quantidade de pratos disponíveis de acordo com o estoque  |  |
+|RF-016| O gerente poderá lançar gastos diversos do restaurante  |  |
+|RF-017| O gerente poderá gerar relatório financeiro por período de tempo estipulado  |  |
+|RF-018| O gerente poderá criar e remover cadastro de funcionários  |  |
+
+
+
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA |
+|RnF-003| Possuir interfaces customizadas para 3 tipos de usuários   | ALTA |
+|RnF-004| O software do cliente deve ser mobile   | ALTA |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
