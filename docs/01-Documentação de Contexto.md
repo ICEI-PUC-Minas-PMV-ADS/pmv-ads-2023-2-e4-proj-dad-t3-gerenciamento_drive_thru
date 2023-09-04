@@ -1,6 +1,8 @@
 # Introdução
 
-olá, Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Com a crescente demanda por conveniência e agilidade no atendimento ao cliente, os estabelecimentos de fast-food e restaurantes estão cada vez mais voltando sua atenção para o aprimoramento de suas operações de drive-thru. Este projeto visa desenvolver um sistema de gerenciamento de drive-thru eficiente e inovador, com o objetivo de proporcionar uma experiência excepcional aos clientes e otimizar as operações internas.
+
+Neste contexto, exploraremos as principais áreas de foco deste projeto, que incluem a automação do pedido, o aprimoramento da eficiência operacional, a personalização da experiência do cliente e a integração de tecnologias avançadas para aprimorar a precisão e a velocidade do atendimento.
 
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
@@ -16,7 +18,7 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Nosso objetivo é criar um ambiente de drive-thru que seja mais rápido, conveniente e personalizado, garantindo que os clientes recebam seus pedidos de forma precisa e rápida, ao mesmo tempo em que reduzimos os custos operacionais e minimizamos os erros no atendimento.
 
 Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
  
@@ -34,8 +36,7 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O público-alvo desse projeto de gerenciamento de drive-thru será diversificado, abrangendo diversas categorias de clientes. As principais categorias de público-alvo como famílias, na maioria aquelas que possuem crianças, que buscam mais praticidade e rápida para satisfazer a fome de todos os membros. Há também aqueles clientes que estão numa idade mais avançada ou com mobilidade reduzida onde encontram no drive-thru uma maneira acessível e conveniente de obter suas refeições. Podemos citar também as grandes empresas que buscam uma solução mais eficiente de fazer pedidos em grandes escalas para seus funcionários. 
 
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
