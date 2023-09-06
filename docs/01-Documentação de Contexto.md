@@ -1,8 +1,8 @@
 # Introdução
 
-Com a crescente demanda por conveniência e agilidade no atendimento ao cliente, os estabelecimentos de fast-food e restaurantes estão cada vez mais voltando sua atenção para o aprimoramento de suas operações de drive-thru. Este projeto visa desenvolver um sistema de gerenciamento de drive-thru eficiente e inovador, com o objetivo de proporcionar uma experiência excepcional aos clientes e otimizar as operações internas.
+A crescente demanda por praticidade e rapidez no ramo de alimentação transformou o serviço de drive-thru em uma parte essencial da indústria de restaurantes e fast-food. No entanto, com o aumento da concorrência e a necessidade de aprimorar a experiência do cliente, a construção de um sistema de gerenciamento de drive-thru eficiente tornou-se uma prioridade para muitos estabelecimentos. Este projeto visa explorar a criação de um sistema inovador de gerenciamento de drive-thru, que não apenas otimize o fluxo de veículos e pedidos, mas também melhore significativamente a satisfação do cliente e a eficiência operacional.  
 
-Neste contexto, exploraremos as principais áreas de foco deste projeto, que incluem a automação do pedido, o aprimoramento da eficiência operacional, a personalização da experiência do cliente e a integração de tecnologias avançadas para aprimorar a precisão e a velocidade do atendimento.
+Neste projeto, será dado ênfase nas principais áreas críticas de gerenciamento de um restaurante baseado no modelo DriveThru, em que destacam-se a automação do pedido, o aprimoramento da eficiência operacional, a personalização da experiência do cliente e a integração de tecnologias avançadas para aprimorar a precisão e a velocidade do atendimento. 
 
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
