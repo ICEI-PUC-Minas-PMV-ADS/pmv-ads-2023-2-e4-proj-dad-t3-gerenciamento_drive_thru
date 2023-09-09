@@ -190,3 +190,8 @@ O custo total do projeto para um período de 6 meses é de R$ 56.786,46.
 |Hardware| 19.800,00 |
 |Serviços| 9.000,00 |
 |Total| 56.786,46 |
+
+
+## DIAGRAMA DE ARQUITETURA DE SOFTWARE
+
+![Drive Thru (Arquitetura 3)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/c34a113b-5d1e-4411-9725-762a095daeb4)
