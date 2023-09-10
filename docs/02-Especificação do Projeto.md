@@ -140,7 +140,7 @@ RF: Requisito Funcional
 
 RNF: Requisito não funcional 
 
-![matriz de rastreabilidade](img/image.png)
+![matriz de rastreabilidade](img/Matriz-de-rastreabilidade.png)
 
 # Gerenciamento de Projeto
 
