@@ -126,10 +126,19 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 > - [Diagrams](https://app.diagrams.net/)
 
 # Matriz de Rastreabilidade
+ 
 
-A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio. 
+Foram adicionados os seguintes stakeholders: Engenheiro de Software (focado no desenvolvimento atual, tecnológico e de qualidade), Arquiteto de Software (focado na estrutura do software), Desenvolvedor (com uma visão geral sobre a implementação), e Product Owner (que traz a visão do cliente e elicita os casos de uso). A matriz de rastreabilidade abaixo mostra como as seguintes partes e artefatos estão relacionados entre si: 
 
-A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
+PO: Product Owner 
+
+BL-01 Documento atual tido como baseline 1 com as descrições dos requisitos 
+
+CT: Caso de Teste (Colunas a serem inseridas) 
+
+RF: Requisito Funcional 
+
+RNF: Requisito não funcional 
 
 ![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
 
