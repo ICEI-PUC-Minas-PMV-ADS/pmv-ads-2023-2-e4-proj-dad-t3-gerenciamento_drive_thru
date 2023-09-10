@@ -64,11 +64,6 @@ A escolha de abordar um sistema de Drive-Thru como objeto de estudo e desenvolvi
 
 Em resumo, o sistema de Drive-Thru representa uma aplicação altamente relevante e versátil que atende a demandas contemporâneas, desde a busca pela segurança no atendimento durante a pandemia até a otimização da experiência do cliente e o estímulo à economia. A escolha desse tema visa aprofundar o entendimento das implicações tecnológicas, econômicas e sociais desse sistema, bem como explorar maneiras de aprimorá-lo para o benefício de consumidores e empresas. 
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-
 ## Público-Alvo
 
 O público-alvo desse projeto de gerenciamento de drive-thru será diversificado, abrangendo diversas categorias de clientes. As principais categorias de público-alvo como famílias, na maioria aquelas que possuem crianças, que buscam mais praticidade e rápida para satisfazer a fome de todos os membros. Há também aqueles clientes que estão numa idade mais avançada ou com mobilidade reduzida onde encontram no drive-thru uma maneira acessível e conveniente de obter suas refeições. Podemos citar também as grandes empresas que buscam uma solução mais eficiente de fazer pedidos em grandes escalas para seus funcionários.
