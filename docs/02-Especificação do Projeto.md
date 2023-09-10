@@ -65,24 +65,24 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-|RF-003| Possuir interfaces customizadas para 3 tipos de usuários   | ALTA |
-|RF-004| Os 3 tipos de usuários poderão realizar login no sistema   |  |
-|RF-005| Os 3 tipos de usuários poderão consultar e alterar dados pessoais de acordo com as regras de negócio.  |  |
-|RF-006| Os 3 tipos de usuários poderão realizar alteração de senha  |  |
-|RF-007| O consumidor poderá realizar pedidos  |  |
-|RF-008| O consumidor e o funcionário poderão acompanhar o status dos pedidos registrados por eles  |  |
-|RF-009| O consumidor poderá deixar suas observações em relação ao prato consumido  |  |
-|RF-010| O consumidor poderá realizar cadastro no sistema  |  |
-|RF-011| O consumidor poderá excluir o cadastro do sistema  |  |
-|RF-012| O funcionário poderá lançar os pedidos dos clientes locais de acordo com a mesa em que se encontra  |  |
-|RF-013| O funcionário poderá atualizar o status de todos os pedidos do estabelecimento  |  |
-|RF-014| O funcionário e o gerente poderão acompanhar o status de todos os pedidos do estabelecimento  |  |
-|RF-015| O gerente poderá adicionar e remover produtos quantidade de pratos disponíveis de acordo com o estoque  |  |
-|RF-016| O gerente poderá lançar gastos diversos do restaurante  |  |
-|RF-017| O gerente poderá gerar relatório financeiro por período de tempo estipulado  |  |
-|RF-018| O gerente poderá criar e remover cadastro de funcionários  |  |
+|RF-001| Permitir que o gerente cadastre tarefas | ALTA | 
+|RF-002| Emitir um relatório de tarefas por periodo   | MÉDIA |
+|RF-003| Os 3 tipos de usuários poderão realizar login no sistema   | ALTA |
+|RF-004| Os 3 tipos de usuários poderão consultar e alterar dados pessoais de acordo com as regras de negócio.  | MÉDIA  |
+|RF-005| Os 3 tipos de usuários poderão realizar alteração de senha  |  ALTA |
+|RF-006| O consumidor poderá realizar pedidos  | ALTA |
+|RF-007| O consumidor e o funcionário poderão acompanhar o status dos pedidos registrados por eles  | MÉDIA |
+|RF-008| O consumidor poderá deixar suas observações em relação ao prato consumido  |  BAIXA |
+|RF-009| O consumidor poderá realizar cadastro no sistema  | ALTA |
+|RF-010| O consumidor poderá excluir o cadastro do sistema  | MÉDIA |
+|RF-011| O funcionário poderá lançar os pedidos dos clientes locais de acordo com a mesa em que se encontra  | ALTA |
+|RF-012| O funcionário poderá atualizar o status de todos os pedidos do estabelecimento  | MÉDIA |
+|RF-013| O funcionário e o gerente poderão acompanhar o status de todos os pedidos do estabelecimento  | ALTA |
+|RF-014| O gerente poderá adicionar e remover produtos e quantidade de pratos disponíveis de acordo com o estoque  | ALTA |
+|RF-015| O gerente poderá gerar relatório financeiro por período de tempo estipulado | MÉDIA |
+|RF-016| O gerente poderá criar e remover cadastro de funcionários   | ALTA |
+|RF-017| O gerente poderá acessar dados de gastos diversos lançados no sistema   | MÉDIA |
+|RF-018|O gerente poderá acessar a quantidade de consumidores cadastrados no sistema | MÉDIA |
 
 
 
@@ -95,6 +95,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA |
 |RNF-003| Possuir interfaces customizadas para 3 tipos de usuários   | ALTA |
 |RNF-004| O software do cliente deve ser mobile   | ALTA |
+|RNF-005| O sistema deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge)    | BAIXA |
 
 
 ## Restrições
@@ -104,13 +105,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até 10/12/2023 |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|02|A plataforma deve se restringir às tecnologias básicas utilizando ferramentas de (dev. móvel e API)|
+|03|A equipe não pode subcontratar o desenvolvimento do trabalho. |
+|04|A plataforma se compromete em não compartilhar históricos de pesquisa, localização em tempo real e dados sensíveis dos usuários. |
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 
