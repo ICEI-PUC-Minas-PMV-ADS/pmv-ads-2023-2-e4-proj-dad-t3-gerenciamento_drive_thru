@@ -201,6 +201,10 @@ O custo total do projeto para um período de 6 meses é de R$ 56.786,46.
 |Total| 56.786,46 |
 
 
-### DIAGRAMA DE ARQUITETURA DE SOFTWARE
+## Diagrama de Arquitetura de Software
+
+Inicialmente, vamos começar com o Sistema_Restaurante (API CRUD – ASP.NET/Razor), que irá disponibilizar as informações do estabelecimento e dos itens oferecidos. O Gerenciador de Senhas (MongoDB) será responsável pela autorização do acesso dos dados no banco de dados. Após essa etapa, o restaurante será notificado, desencadeando dois fluxos: notificação ao cliente (React Native) e notificação ao restaurante (ASP.NET/Razor). 
+
+ Através dos dados obtidos na base da dados o Sistema_Restaurante poderá realizar o pedido e um sistema de Mensageria (Kafka) comunicará o cliente quando o pedido estiver finalizado.
 
 ![Drive Thru (Arquitetura 3)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/c34a113b-5d1e-4411-9725-762a095daeb4)
