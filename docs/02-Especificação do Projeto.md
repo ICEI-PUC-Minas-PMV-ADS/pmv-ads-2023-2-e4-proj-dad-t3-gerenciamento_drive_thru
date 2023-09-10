@@ -140,7 +140,7 @@ RF: Requisito Funcional
 
 RNF: Requisito não funcional 
 
-![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
+![matriz de rastreabilidade](img/image.png)
 
 > **Links Úteis**:
 > - [Artigo Engenharia de Software 13 - Rastreabilidade](https://www.devmedia.com.br/artigo-engenharia-de-software-13-rastreabilidade/12822/)
