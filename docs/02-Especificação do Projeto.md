@@ -112,16 +112,14 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
+A plataforma de gerenciamento DriveThru tem como intuito facilitar o planejamento de operações e gerenciamento de restaurantes, além de dar maior agilidade no atendimento fornecido pelos estabelecimentos do ramo alimentício, aumentando assim o percentual de satisfação do cliente. O software deverá exibir itens cadastrados por restaurante, gerir e ordenar os pedidos realizados na plataforma, emitir notificações de status de andamento e conclusão de pedidos pelo número de registro gerado no momento da compra. 
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
+A inserção dos itens e produtos do restaurante será realizada, inicialmente, pelo gerente e/ou administrador cadastrado na plataforma. Quanto ao recurso de listagem de produtos, será possível realizar a consulta mesmo antes de realizar o login na plataforma, porém será necessário a autenticação na plataforma para registro e realização de pedidos. 
 
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+No rodapé da página inicial constará um link direto para contatos do estabelecimento, bem como as informações de privacidade e termos de uso que estarão disponíveis a todos os usuários e administradores da plataforma. 
+
+![Casos de uso DriveThru](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/0bc9a3c6-42bd-4ec4-bba6-a92f5aa6504c)
+
 
 # Matriz de Rastreabilidade
  
