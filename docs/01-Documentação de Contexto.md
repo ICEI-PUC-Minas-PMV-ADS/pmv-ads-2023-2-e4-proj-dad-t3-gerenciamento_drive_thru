@@ -61,12 +61,6 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-O público-alvo desse projeto de gerenciamento de drive-thru será diversificado, abrangendo diversas categorias de clientes. As principais categorias de público-alvo como famílias, na maioria aquelas que possuem crianças, que buscam mais praticidade e rápida para satisfazer a fome de todos os membros. Há também aqueles clientes que estão numa idade mais avançada ou com mobilidade reduzida onde encontram no drive-thru uma maneira acessível e conveniente de obter suas refeições. Podemos citar também as grandes empresas que buscam uma solução mais eficiente de fazer pedidos em grandes escalas para seus funcionários. 
+O público-alvo desse projeto de gerenciamento de drive-thru será diversificado, abrangendo diversas categorias de clientes. As principais categorias de público-alvo como famílias, na maioria aquelas que possuem crianças, que buscam mais praticidade e rápida para satisfazer a fome de todos os membros. Há também aqueles clientes que estão numa idade mais avançada ou com mobilidade reduzida onde encontram no drive-thru uma maneira acessível e conveniente de obter suas refeições. Podemos citar também as grandes empresas que buscam uma solução mais eficiente de fazer pedidos em grandes escalas para seus funcionários.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Portanto, o projeto deve ser projetado de forma a atender a essas diversas necessidades e expectativas do público-alvo, garantindo que todos os clientes tenham uma experiência positiva no drive-thru e incentivando o retorno frequente ao estabelecimento. Isso envolve a implementação de tecnologias avançadas, treinamento adequado da equipe e a oferta de opções de menu que atendam a diferentes preferências alimentares e restrições dietéticas.
