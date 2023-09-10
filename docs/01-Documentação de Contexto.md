@@ -52,6 +52,18 @@ O sistema de gerenciamento criado visa resolver problemas recorrentes no modelo 
 
 ## Justificativa
 
+A escolha de abordar um sistema de Drive-Thru como objeto de estudo e desenvolvimento de software baseia-se em várias razões de grande importância. Essa aplicação específica representa uma resposta essencial às demandas e tendências atuais da sociedade, bem como oferece oportunidades significativas de aprimoramento da experiência do cliente e impacto econômico positivo. As motivações que encontrada para realização dessa aplicação foi:
+
+- Relevância na Era Pós-Pandêmica
+- Melhoria da Experiência do Cliente
+- Impacto na Eficiência Operacional
+- Crescimento do Setor de Alimentação e Varejo 
+- Redução do Tráfego nas Vias Públicas
+- Coleta de Dados e Análises Estratégicas 
+- Fomento do Empreendedorismo 
+
+Em resumo, o sistema de Drive-Thru representa uma aplicação altamente relevante e versátil que atende a demandas contemporâneas, desde a busca pela segurança no atendimento durante a pandemia até a otimização da experiência do cliente e o estímulo à economia. A escolha desse tema visa aprofundar o entendimento das implicações tecnológicas, econômicas e sociais desse sistema, bem como explorar maneiras de aprimorá-lo para o benefício de consumidores e empresas. 
+
 Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
 
 O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
