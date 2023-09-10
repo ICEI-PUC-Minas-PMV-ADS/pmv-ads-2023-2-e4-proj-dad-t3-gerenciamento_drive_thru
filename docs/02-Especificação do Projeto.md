@@ -148,14 +148,24 @@ De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar 
 
 ## Gerenciamento de Tempo
 
-Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
+1ª ETAPA: Concepção, Proposta de Solução e Início da Elaboração do Projeto da Solução (10/09/2023) 
+• Documento de Contexto • Especificação do Problema • Documentação dos perfis de 		usuários, suas necessidades e Personas. • Documentação da Arquitetura Distribuída • 		Documentação dos requisitos funcionais e não funcionais do projeto de acordo com o 		contexto levantado 
 
-![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
 
-O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
+2ª ETAPA: Desenvolvimento do Back-end: Web API (01/10/2023)  
+• Documentação da arquitetura da aplicação distribuída • Projeto da arquitetura baseada 	em API • Implementação da API e testes de unidade • Documentação com justificativa e avaliação do modelo de dados NoSQL para o contexto da aplicação • Implementação das funcionalidades que envolvem o banco de dados NoSQL para armazenamento e recuperação de dados. 
 
-![Gráfico de Gantt](img/02-grafico-gantt.png)
+3ª ETAPA: Desenvolvimento do Front-end: Web (29/10/2023)  
+• Documentação do projeto de interface e do fluxo de telas do sistema de uma aplicação 	web • Implementação do projeto de interface, fluxo de telas do sistema de uma aplicação 	web e testes de integração. 
 
+4ª ETAPA: Desenvolvimento do Front-end: Mobile (26/11/2023) 
+• Documentação do projeto de interface e fluxo de telas do sistema de uma aplicação mobile 	• Implementação do projeto de interface, fluxo de telas do sistema de uma aplicação mobile 	testes de sistema 
+
+ 
+5ª ETAPA: Diagnóstico, entrega da solução e apresentação (10/12/2023) 
+• Projeto final • Considerações finais • Entrega do Vídeo da Apresentação Final e PDF usado 	na Apresentação • Realização da Apresentação Final 
+
+ 
 ## Gerenciamento de Equipe
 
 Gerenciar pessoas é um desafio que deve ser levado à sério porque recursos humanos é o recurso mais valioso de qualquer projeto. Para tanto, é construído um diagrama em que as atividades de cada equipe/pessoa envolvida no tempo fiquem bem claras. A imagem abaixo traz as atividades a serem realizadas por cada agente do projeto nessa etapa. 
