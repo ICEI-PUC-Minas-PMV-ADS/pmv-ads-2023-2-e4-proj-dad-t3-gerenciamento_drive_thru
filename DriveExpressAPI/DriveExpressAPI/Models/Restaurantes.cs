@@ -18,6 +18,7 @@ namespace DriveExpressAPI.Models
         [Required]
         public string Endereco { get; set; }
 
+        [Required]
         public string Telefone { get; set; }
 
         public ICollection <Cardapio> Cardapios { get; set; }
