@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "TA3qNwXUC+66Lac2mYvcdYhIveMYs4YDRUD6D4q2WspcBdqRWJG17V21Y9uh+qf/+9rlCn/OksY+IgjIAeDxYg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 4\\Projeto\\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\\DriveExpressAPI\\DriveExpressAPI\\DriveExpressAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mfern\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\mfern\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\mfern\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\mfern\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\mfern\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\mfern\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
