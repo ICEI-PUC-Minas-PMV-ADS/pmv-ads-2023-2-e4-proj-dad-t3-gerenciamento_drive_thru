@@ -24,9 +24,17 @@ namespace DriveExpressAPI.Models
 
         public string? Observacao { get; set; }
 
+        public TipoProduto Tipo { get; set; }
+
         [Required]
         public int RestauranteId { get; set; }
 
-        public Restaurantes Restaurantes { get; set; }
+        public Restaurante Restaurantes { get; set; }
+    }
+
+    public enum TipoProduto
+    {
+        Bebida,
+        Comida
     }
 }

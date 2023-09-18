@@ -3,8 +3,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DriveExpressAPI.Models
 {
-    [Table("Restaurantes")]
-    public class Restaurantes
+    [Table("Restaurante")]
+    public class Restaurante
     {
         [Key]
         public int Id { get; set; }
@@ -13,7 +13,7 @@ namespace DriveExpressAPI.Models
         public string Nome { get; set; }
 
         [Required]
-        public string Categoria { get; set; }
+        public TipoCategoria Categoria { get; set; }
 
         [Required]
         public string Endereco { get; set; }
@@ -22,5 +22,16 @@ namespace DriveExpressAPI.Models
         public string Telefone { get; set; }
 
         public ICollection <Cardapio> Cardapios { get; set; }
+    }
+
+    public enum TipoCategoria
+    {
+        Brasileira,
+        Doces,
+        Japonesa,
+        Mexicana,
+        Italiana,
+        FastFood
+
     }
 }

@@ -8,8 +8,8 @@ namespace DriveExpressAPI.Models
         {
         }
 
-        public DbSet<Restaurantes> Restaurantes { get; set; }
+        public DbSet<Restaurante> Restaurantes { get; set; }
 
-        public DbSet<Cardapio> Cardapio { get; set; }
+        public DbSet<Cardapio> Cardapios { get; set; }
     }
 }
