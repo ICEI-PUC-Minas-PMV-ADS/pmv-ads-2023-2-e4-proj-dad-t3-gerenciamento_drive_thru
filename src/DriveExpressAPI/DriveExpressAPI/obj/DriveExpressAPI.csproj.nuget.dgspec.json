@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 4\\Projeto\\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\\DriveExpressAPI\\DriveExpressAPI\\DriveExpressAPI.csproj": {}
+    "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 4\\Projeto\\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\\src\\DriveExpressAPI\\DriveExpressAPI\\DriveExpressAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 4\\Projeto\\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\\DriveExpressAPI\\DriveExpressAPI\\DriveExpressAPI.csproj": {
+    "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 4\\Projeto\\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\\src\\DriveExpressAPI\\DriveExpressAPI\\DriveExpressAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 4\\Projeto\\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\\DriveExpressAPI\\DriveExpressAPI\\DriveExpressAPI.csproj",
+        "projectUniqueName": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 4\\Projeto\\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\\src\\DriveExpressAPI\\DriveExpressAPI\\DriveExpressAPI.csproj",
         "projectName": "DriveExpressAPI",
-        "projectPath": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 4\\Projeto\\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\\DriveExpressAPI\\DriveExpressAPI\\DriveExpressAPI.csproj",
+        "projectPath": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 4\\Projeto\\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\\src\\DriveExpressAPI\\DriveExpressAPI\\DriveExpressAPI.csproj",
         "packagesPath": "C:\\Users\\mfern\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 4\\Projeto\\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\\DriveExpressAPI\\DriveExpressAPI\\obj\\",
+        "outputPath": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 4\\Projeto\\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\\src\\DriveExpressAPI\\DriveExpressAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mfern\\AppData\\Roaming\\NuGet\\NuGet.Config",

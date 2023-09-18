@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GXYaLBc1d9QUSrD8ukX8LIl17tTH/w7WoFIarVHsUM+CgZ5c0z8do3p+m9PSZO+TKgLHty7c3q3693xkiSya+Q==",
+  "dgSpecHash": "qfwHQFngZA3x3uSGFpjfoCDLdtuTP+1/RXEEs+odUiKMvjEKMAQ3331XWR7OnB+6OR2MbnopIIi3sJlIsH8GwQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 4\\Projeto\\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\\DriveExpressAPI\\DriveExpressAPI\\DriveExpressAPI.csproj",
+  "projectFilePath": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 4\\Projeto\\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\\src\\DriveExpressAPI\\DriveExpressAPI\\DriveExpressAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mfern\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\mfern\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
