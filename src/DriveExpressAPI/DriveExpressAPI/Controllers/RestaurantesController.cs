@@ -23,5 +23,29 @@ namespace DriveExpressAPI.Controllers
 
             return Ok(model);
         }
+
+        [HttpPost]
+        public async Task<ActionResult> Create(Restaurante model)
+        {
+            if (model.Endereco == null || model.Telefone == null)
+            {
+                return BadRequest(new { message = "Endereço e Telefone são obrigatórios" });
+            }
+
+            _context.Restaurantes.Add(model);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction("GetById", new {id = model.Id}, model);
+        }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult> GetById(int id)
+        {
+            var model = await _context.Restaurantes.FirstOrDefaultAsync(c => c.Id == id);
+
+            if (model == null) NotFound();
+
+            return Ok(model);
+        }
     }
 }

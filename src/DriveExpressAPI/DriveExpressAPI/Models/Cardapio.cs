@@ -22,8 +22,9 @@ namespace DriveExpressAPI.Models
         [Required]
         public int Quantidade { get; set; }
 
-        public string? Observacao { get; set; }
+        public string Observacao { get; set; }
 
+        [Required]
         public TipoProduto Tipo { get; set; }
 
         [Required]
