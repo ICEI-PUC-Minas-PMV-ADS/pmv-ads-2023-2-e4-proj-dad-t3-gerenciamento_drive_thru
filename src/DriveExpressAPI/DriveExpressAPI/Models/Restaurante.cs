@@ -13,9 +13,6 @@ namespace DriveExpressAPI.Models
         public string Nome { get; set; }
 
         [Required]
-        public TipoCategoria Categoria { get; set; }
-
-        [Required]
         public string Endereco { get; set; }
 
         [Required]
@@ -24,14 +21,4 @@ namespace DriveExpressAPI.Models
         public ICollection <Cardapio> Cardapios { get; set; }
     }
 
-   public enum TipoCategoria
-    {
-        Brasileira,
-        Doces,
-        Japonesa,
-        Mexicana,
-        Italiana,
-        FastFood
-
-    }
 }

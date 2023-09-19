@@ -43,7 +43,7 @@ namespace DriveExpressAPI.Controllers
         {
             var model = await _context.Restaurantes.FirstOrDefaultAsync(c => c.Id == id);
 
-            if (model == null) NotFound();
+            if (model == null) return NotFound();
 
             return Ok(model);
         }
@@ -67,7 +67,7 @@ namespace DriveExpressAPI.Controllers
         {
             var model = await _context.Restaurantes.FindAsync(id);
 
-            if (model == null) NotFound();
+            if (model == null) return NotFound();
 
             _context.Restaurantes.Remove(model);
             await _context.SaveChangesAsync();
