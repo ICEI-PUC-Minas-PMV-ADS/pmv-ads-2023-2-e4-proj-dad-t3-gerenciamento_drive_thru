@@ -18,7 +18,16 @@ namespace DriveExpressAPI.Models
         [Required]
         public string Telefone { get; set; }
 
+        [Required]
+        public Categoria Categoria { get; set; }
+
         public ICollection <Cardapio> Cardapios { get; set; }
     }
 
+    public enum Categoria
+    {
+        Brasileira,
+        Japonesa,
+        FastFood
+    }
 }

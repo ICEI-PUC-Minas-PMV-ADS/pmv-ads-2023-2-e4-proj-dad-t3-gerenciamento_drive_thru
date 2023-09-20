@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DriveExpressAPI.Models
 {
-    [Table("Cardápio")]
+    [Table("Cardapios")]
     public class Cardapio
     {
         [Key]
