@@ -52,7 +52,9 @@ namespace DriveExpressAPI.Controllers
         public async Task<ActionResult> Update(int id, Restaurante model)
         {
             if (id != model.Id) return BadRequest();
-            var modeloDb = _context.Restaurantes.AsNoTracking().FirstOrDefaultAsync(c => c.Id == id);
+            var modeloDb = await _context.Restaurantes
+                .AsNoTracking()
+                .FirstOrDefaultAsync(c => c.Id == id);
 
             if (modeloDb == null) return NotFound();
 
