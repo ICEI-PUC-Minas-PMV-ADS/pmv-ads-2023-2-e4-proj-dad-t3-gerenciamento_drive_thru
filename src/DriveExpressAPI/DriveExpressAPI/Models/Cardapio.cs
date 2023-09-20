@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace DriveExpressAPI.Models
 {
     [Table("Cardapios")]
-    public class Cardapio
+    public class Cardapio : LinksHATEOS
     {
         [Key]
         public int Id { get; set; }
