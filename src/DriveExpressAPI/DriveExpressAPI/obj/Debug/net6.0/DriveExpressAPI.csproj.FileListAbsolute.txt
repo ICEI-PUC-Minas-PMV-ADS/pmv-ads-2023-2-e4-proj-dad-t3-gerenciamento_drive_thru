@@ -172,3 +172,5 @@ C:\Users\mfern\Desktop\PUC\Matérias\Eixo 4\Projeto\pmv-ads-2023-2-e4-proj-dad-t
 C:\Users\mfern\Desktop\PUC\Matérias\Eixo 4\Projeto\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\src\DriveExpressAPI\DriveExpressAPI\obj\Debug\net6.0\DriveExpressAPI.pdb
 C:\Users\mfern\Desktop\PUC\Matérias\Eixo 4\Projeto\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\src\DriveExpressAPI\DriveExpressAPI\obj\Debug\net6.0\DriveExpressAPI.genruntimeconfig.cache
 C:\Users\mfern\Desktop\PUC\Matérias\Eixo 4\Projeto\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\src\DriveExpressAPI\DriveExpressAPI\obj\Debug\net6.0\ref\DriveExpressAPI.dll
+C:\Users\mfern\Desktop\PUC\Matérias\Eixo 4\Projeto\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\src\DriveExpressAPI\DriveExpressAPI\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Users\mfern\Desktop\PUC\Matérias\Eixo 4\Projeto\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\src\DriveExpressAPI\DriveExpressAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

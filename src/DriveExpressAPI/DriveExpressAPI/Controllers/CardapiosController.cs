@@ -7,11 +7,11 @@ namespace DriveExpressAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class RestaurantesController : ControllerBase
+    public class CardapiosController : ControllerBase
     {
         private readonly AppDbContext _context;
 
-        public RestaurantesController(AppDbContext context)
+        public CardapiosController(AppDbContext context)
         {
             _context = context;
         }
@@ -19,30 +19,24 @@ namespace DriveExpressAPI.Controllers
         [HttpGet]
         public async Task<ActionResult> GetAll()
         {
-            var model = await _context.Restaurantes.ToListAsync();
+            var model = await _context.Cardapios.ToListAsync();
 
             return Ok(model);
         }
 
         [HttpPost]
-        public async Task<ActionResult> Create(Restaurante model)
+        public async Task<ActionResult> Create(Cardapio model)
         {
-            if (model.Endereco == null || model.Telefone == null)
-            {
-                return BadRequest(new { message = "Endereço e Telefone são obrigatórios" });
-            }
-
-            _context.Restaurantes.Add(model);
+            _context.Cardapios.Add(model);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetById", new {id = model.Id}, model);
+            return CreatedAtAction("GetById", new { id = model.Id }, model);
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult> GetById(int id)
         {
-            var model = await _context.Restaurantes
-                .Include(t => t.Cardapios)
+            var model = await _context.Cardapios
                 .FirstOrDefaultAsync(c => c.Id == id);
 
             if (model == null) return NotFound();
@@ -52,17 +46,17 @@ namespace DriveExpressAPI.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult> Update(int id, Restaurante model)
+        public async Task<ActionResult> Update(int id, Cardapio model)
         {
             if (id != model.Id) return BadRequest();
 
-            var modeloDb = await _context.Restaurantes
+            var modeloDb = await _context.Cardapios
                 .AsNoTracking()
                 .FirstOrDefaultAsync(c => c.Id == id);
 
             if (modeloDb == null) return NotFound();
 
-            _context.Restaurantes.Update(model);
+            _context.Cardapios.Update(model);
             await _context.SaveChangesAsync();
 
             return NoContent();
@@ -71,17 +65,17 @@ namespace DriveExpressAPI.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(int id)
         {
-            var model = await _context.Restaurantes.FindAsync(id);
+            var model = await _context.Cardapios.FindAsync(id);
 
             if (model == null) return NotFound();
 
-            _context.Restaurantes.Remove(model);
+            _context.Cardapios.Remove(model);
             await _context.SaveChangesAsync();
 
             return NoContent();
         }
 
-        private void GerarLinks (Restaurante model)
+        private void GerarLinks(Cardapio model)
         {
             model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "self", metodo: "GET"));
             model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "update", metodo: "PUT"));
