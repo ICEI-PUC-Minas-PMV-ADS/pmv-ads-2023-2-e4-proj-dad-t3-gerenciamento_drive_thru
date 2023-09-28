@@ -1,87 +1,91 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
 
 ## Relação de Ambientes de Trabalho
 
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito deverá ser apresentada em uma tabela que especifica que detalha Ambiente, Plataforma e Link de Acesso. 
-Nota: Vide documento modelo do estudo de caso "Portal de Notícias" e defina também os ambientes e frameworks que serão utilizados no desenvolvimento de aplicações móveis.
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas. A relação dos ambientes com seu respectivo propósito é apresentada na tabela a seguir. 
+
+
+Repositório de código fonte 
+
+Documentos do projeto 
+
+Projeto de Interface e Wireframes 
+
+Gerenciamento do Projeto 
+
+
+
+
+|Ambiente   | Plataforma  |Link de Acesso |
+|-------|-------------------------|----|
+|Repositório de código fonte| GitHub | ![GitHub](http://pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/)  | 
+|Documentos do projeto| Google Drive |  ![Drive](https://sgapucminasbr-my.sharepoint.com/:w:/r/personal/1399462_sga_pucminas_br/_layouts/15/Doc.aspx?sourcedoc=%7B6F896F2E-10E7-4653-8380-EC9AFCBA2814%7D&file=Etapa_01_Drive_Thru.docx&action=default&mobileredirect=true&DefaultItemOpen=1&login_hint=1399462%40sga.pucminas.br&ct=1695853375403&wdOrigin=OFFICECOM-WEB.MAIN.EDGEWORTH&cid=e1c1763d-ddaf-45dc-901a-cf6ed53523b7&wdPreviousSessionSrc=HarmonyWeb&wdPreviousSession=c05501b8-ba61-4eed-846f-a5f3c2f01b06)|
+|Projeto de Interface e Wireframes| Figma  | Figma|
+|Gerenciamento do Projeto| GitHub e Teams   | ![Backlog](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/287/views/1) |
+
+
 
 ## Controle de Versão
 
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
+Para gestão do código fonte do software desenvolvido pela equipe, o grupo utiliza um processo baseado no Git Flow abordado por Vietro (2015), mostrado na Figura a seguir. Desta forma, todas as manutenções no código são realizadas em branches separados, identificados como Hotfix, Release, Develop e Feature.  
 
-O projeto segue a seguinte convenção para o nome de branches:
 
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
 
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
+![Gestao](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/blob/d21bfb5a359f41a8006f0b917b156f78cb9cdfb8/docs/img/Gestao_codigo.png)
 
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Microfundamento: Gerência de Configuração](https://pucminas.instructure.com/courses/87878/)
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
 
 ## Gerenciamento de Projeto
 
+
+
+
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando a ferramenta de gestão do Github estruturado da seguinte forma:  
 
-Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
-- Scrum Master: Felipe Domingos;
-- Product Owner: Rommel Carneiro;
-- Equipe de Desenvolvimento: Pedro Penna, Pedro Ivo, Rodrigo Richard;
-- Equipe de Design: Simone Nogueira.
+Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista;  
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-> - [Os papéis do Scrum e a verdade sobre cargos nessa técnica](https://www.atlassian.com/br/agile/scrum/roles)
+To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando;  
+
+In Progress: representa as tarefas que estão em execução naquele momento;  
+
+Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação. Foi escolhido o quadro de Kanban para o gerenciamento do projeto. Com o sistema Kanban é possível avaliar o progresso do trabalho da equipe, avaliar etapas posteriores, medir o tempo gasto em tarefas específicas e também promover a cooperação entre a equipe, tudo isso utilizando um sistema simples e visual.  
+
+
+
+![Gestao](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/blob/d21bfb5a359f41a8006f0b917b156f78cb9cdfb8/docs/img/Gerenciamento_projeto.png)
+
+
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Planejamento e Gestáo Ágil de Projetos](https://pucminas.instructure.com/courses/87878/pages/unidade-2-tema-2-utilizacao-de-ferramentas-para-controle-de-versoes-de-software)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards)
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Scrum Master: Arthur Hudson 
+Product Owner: Guilherme Bonfim  
+
+
+Equipe de Desenvolvimento Backend e Testes:  
+Anna Karolina, Arthur Hudson, Elder Ferreira, Franciele Félix, Guilherme Bonfim e Matheus Fernandes 
+
+
+Equipe de Desenvolvimento Frontend:   
+Franciele Félix, Guilherme Bonfim e Matheus Fernandes 
+
+
+Equipe de Desenvolvimento Mobile:  
+Anna Karolina, Arthur Hudson e Elder Ferreira
 
 ### Ferramentas
 
-As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+As ferramentas empregadas no projeto são:  
 
-O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
+Editor de código - Visual Studio Code.  
+Ferramentas de comunicação - WhatsApp, Microsoft Teams.  
+Ferramentas de desenho de tela -  Figma.  
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+Selecionamos o editor de código devido à sua integração com o sistema de versão, escolhemos ferramentas de comunicação com integração semelhante e utilizamos essa ferramenta para criar diagramas, pois ela melhor atendeu às necessidades da nossa solução. 
+
+
