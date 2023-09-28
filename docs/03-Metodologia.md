@@ -7,23 +7,16 @@
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas. A relação dos ambientes com seu respectivo propósito é apresentada na tabela a seguir. 
 
 
-Repositório de código fonte 
-
-Documentos do projeto 
-
-Projeto de Interface e Wireframes 
-
-Gerenciamento do Projeto 
 
 
 
 
 |Ambiente   | Plataforma  |Link de Acesso |
 |-------|-------------------------|----|
-|Repositório de código fonte| GitHub | ![GitHub](http://pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/)  | 
-|Documentos do projeto| Google Drive |  ![Drive](https://sgapucminasbr-my.sharepoint.com/:w:/r/personal/1399462_sga_pucminas_br/_layouts/15/Doc.aspx?sourcedoc=%7B6F896F2E-10E7-4653-8380-EC9AFCBA2814%7D&file=Etapa_01_Drive_Thru.docx&action=default&mobileredirect=true&DefaultItemOpen=1&login_hint=1399462%40sga.pucminas.br&ct=1695853375403&wdOrigin=OFFICECOM-WEB.MAIN.EDGEWORTH&cid=e1c1763d-ddaf-45dc-901a-cf6ed53523b7&wdPreviousSessionSrc=HarmonyWeb&wdPreviousSession=c05501b8-ba61-4eed-846f-a5f3c2f01b06)|
+|Repositório de código fonte| GitHub | (http://pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/)  | 
+|Documentos do projeto| Google Drive | (https://sgapucminasbr-my.sharepoint.com/:w:/r/personal/1399462_sga_pucminas_br/_layouts/15/Doc.aspx?sourcedoc=%7B6F896F2E-10E7-4653-8380-EC9AFCBA2814%7D&file=Etapa_01_Drive_Thru.docx&action=default&mobileredirect=true&DefaultItemOpen=1&login_hint=1399462%40sga.pucminas.br&ct=1695853375403&wdOrigin=OFFICECOM-WEB.MAIN.EDGEWORTH&cid=e1c1763d-ddaf-45dc-901a-cf6ed53523b7&wdPreviousSessionSrc=HarmonyWeb&wdPreviousSession=c05501b8-ba61-4eed-846f-a5f3c2f01b06)|
 |Projeto de Interface e Wireframes| Figma  | Figma|
-|Gerenciamento do Projeto| GitHub e Teams   | ![Backlog](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/287/views/1) |
+|Gerenciamento do Projeto| GitHub e Teams   | (https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/287/views/1) |
 
 
 
