@@ -1,10 +1,8 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+Muitos restaurantes que oferecem a opção de drive-thru possuem um serviço que é caracterizado por ser o oposto do que é pensado para ser: rápido. Esse gargalo de tempo entre o pedido e a entrega prejudicam a satisfação do cliente. Por outro lado tem-se a opção de não esperar no carro ao pedir comida por aplicativos de entrega. Nesse caso, espera-se em casa. O drive-tru planejado aqui visa solucionar esses gargalos. O usuário do sistema poderá realizar o seu pedido com antecedência e ir buscá-lo quando souber que já está pronto, agilizando o serviço. Muitas features serão adicionadas de forma a auxiliar o dia a dia do restaurante, fornecendo dados para funcionários e gerente de acordo com as demandas do trabalho de cada um.
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Abaixo são apresentadas as personas, histórias de usuários e requisitos planejados para o drive-thru.
 
 ## Personas
 ![Persona 1](img/Persona1.jpg)
