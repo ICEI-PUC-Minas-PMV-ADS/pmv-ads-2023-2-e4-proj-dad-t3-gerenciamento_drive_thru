@@ -10,10 +10,50 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
+A **classe Pessoa** contém atributos comuns a todas as pessoas, como ID e Nome, e possui um construtor que inicializa esses atributos.
 
-> - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
-> - [O que é um diagrama de classe UML? | Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
+As **classes Cliente**, **Funcionário** e **Gerente** herdam da **classe Pessoa**. Elas também possuem atributos específicos para cada tipo de pessoa, como Endereco para clientes e Cargo para funcionários e gerentes. Os construtores dessas classes chamam o construtor da classe base Pessoa usando base(id, nome) para inicializar os atributos comuns.
+
+As funções do **Cliente** são:
+* RealizarPedido(List<Prato> pratos): Permite que o cliente faça um pedido online, passando a lista de pratos desejados.
+* AcompanharStatusPedido(int numeroPedido): Permite que o cliente acompanhe o status de um pedido específico usando o número do pedido.
+* AvaliarPrato(int numeroPedido, int estrelas): Permite ao cliente avaliar um prato em um pedido específico, atribuindo um número de estrelas.
+* AvaliarServico(int numeroPedido, string avaliacao): Permite ao cliente avaliar o serviço prestado no pedido com um texto.
+
+As funções do **Funcionário** são:
+* AcompanharPedidos(List<Pedido> pedidos): Permite ao funcionário acompanhar a lista de pedidos feitos pelos clientes.
+* AtualizarStatusPedido(Pedido pedido, string novoStatus): Permite ao funcionário atualizar o status de um pedido, indicando se está em preparação, pronto para entrega, entregue, etc.
+
+As funções do **Gerente** são:
+* GerarRelatorioFinanceiro(DateTime dataInicio, DateTime dataFim): Gera um relatório financeiro com base em um intervalo de datas específico.
+* CadastrarPrato(Prato novoPrato): Permite ao gerente cadastrar um novo prato no menu do restaurante.
+* DescadastrarPrato(Prato pratoExistente): Permite ao gerente remover um prato do menu do restaurante.
+* GerarRelatorioEstoque(): Gera um relatório do estoque atual do restaurante.
+
+As funções da classe **Pedido** são:
+* CalcularTotal(): Calcula o total do pedido com base nos preços dos pratos selecionados.
+* AdicionarPrato(Prato prato): Adiciona um prato ao pedido.
+* RemoverPrato(Prato prato): Remove um prato do pedido.
+* AlterarStatus(string novoStatus): Altera o status do pedido.
+* AvaliarPrato(int estrelas): Permite ao cliente avaliar um prato no pedido.
+* AvaliarServico(string avaliacao): Permite ao cliente avaliar o serviço prestado no pedido.
+
+As funções da classe **Prato** são:
+* AtualizarEstoque(int quantidade): Atualiza a quantidade disponível no estoque após a preparação de um pedido.
+* ToString(): Retorna uma representação em string do prato, que pode ser usada para exibir informações do prato no menu.
+
+As funções da classe **Estoque** são:
+* AdicionarPrato(Prato prato, int quantidade): Adiciona uma quantidade especificada de um prato ao estoque.
+* RemoverPrato(Prato prato, int quantidade): Remove uma quantidade especificada de um prato do estoque.
+* ConsultarQuantidade(Prato prato): Retorna a quantidade disponível de um prato no estoque.
+
+A **classe MetricasRestaurante** possui uma lista privada de pedidos para armazenar todos os pedidos feitos no restaurante. As suas funções são:
+* AdicionarPedido: permite adicionar um pedido à lista de pedidos.
+* QuantidadeProdutosVendidosNoMes: calcula a quantidade total de produtos vendidos no mês e ano especificados.
+* SatisfacaoMediaPorPrato: calcula a satisfação média do cliente com cada prato com base nas avaliações dos clientes.
+* PratosMaisVendidos e PratosMenosVendidos: retornam listas de pratos ordenados por quantidade vendida, de forma descendente e ascendente, respectivamente.
+
+![Diagrama de Classes](img/DClasses.jpeg)
 
 ## Modelo ER
 
@@ -25,9 +65,32 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER�
 
 ## Esquema Relacional
 
-O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
- 
-As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Relacional”.
+Neste modelo conceitual
+* Pessoa é uma entidade pai com uma relação de herança para as entidades Cliente, Funcionario e Gerente.
+* Pedido tem uma relação com Cliente para indicar quem fez o pedido.
+* Prato representa os pratos disponíveis, e Estoque controla a quantidade de cada prato disponível.
+* MetricasRestaurante está relacionado com Pedido para calcular métricas relacionadas aos pedidos.
+
+**Quanto à cardinalidade**
+* Pessoa - Cliente, Pessoa - Funcionário, Pessoa - Gerente:
+
+* A relação entre Pessoa (pai) e Cliente (filho) é uma relação "1 para 0 ou mais". Isso significa que uma pessoa pode ser um cliente ou nenhum cliente, e um cliente é uma pessoa.
+* A relação entre Pessoa (pai) e Funcionário (filho) também é "1 para 0 ou mais". Isso significa que uma pessoa pode ser um funcionário ou nenhum funcionário, e um funcionário é uma pessoa.
+* A relação entre Pessoa (pai) e Gerente (filho) também pode ser "1 para 0 ou mais" ou "1 para 1 ou mais". Isso significa que uma pessoa pode ser um gerente ou nenhum gerente, e um gerente é uma pessoa.
+
+*Cliente - Pedido:
+A relação entre Cliente e Pedido é "1 para 0 ou mais". Isso significa que um cliente pode fazer um ou mais pedidos, mas também pode não fazer nenhum pedido. Um pedido pertence a um único cliente.
+
+*Pedido - Prato:
+A relação entre Pedido e Prato é "Muitos para Muitos" (M:N), o que significa que um pedido pode conter muitos pratos, e um prato pode estar em muitos pedidos. Isso é comum em sistemas de pedidos de restaurantes, onde um pedido pode incluir vários pratos diferentes, e um prato pode ser solicitado em vários pedidos.
+
+*Estoque - Prato:
+A relação entre Estoque e Prato é "1 para 0 ou mais". Isso significa que um prato pode estar no estoque em uma quantidade específica, e pode haver vários pratos diferentes no estoque. Cada prato no estoque está relacionado a um único prato.
+
+*MetricasRestaurante - Pedido:
+A relação entre MetricasRestaurante e Pedido é "1 para 1 ou mais". Isso significa que um conjunto de métricas pode estar relacionado a um ou mais pedidos. Cada métrica está relacionada a um único pedido.
+
+![Diagrama de Entidades e Relacionamento](img/DER.jpeg)
 
 > - [Criando um modelo relacional - Documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/10.2.2?topic=designer-creating-relational-model)
 
