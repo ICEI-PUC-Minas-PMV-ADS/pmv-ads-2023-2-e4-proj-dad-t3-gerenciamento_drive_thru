@@ -78,16 +78,16 @@ Neste modelo conceitual
 * A relação entre Pessoa (pai) e Funcionário (filho) também é "1 para 0 ou mais". Isso significa que uma pessoa pode ser um funcionário ou nenhum funcionário, e um funcionário é uma pessoa.
 * A relação entre Pessoa (pai) e Gerente (filho) também pode ser "1 para 0 ou mais" ou "1 para 1 ou mais". Isso significa que uma pessoa pode ser um gerente ou nenhum gerente, e um gerente é uma pessoa.
 
-*Cliente - Pedido:
+* Cliente - Pedido:
 A relação entre Cliente e Pedido é "1 para 0 ou mais". Isso significa que um cliente pode fazer um ou mais pedidos, mas também pode não fazer nenhum pedido. Um pedido pertence a um único cliente.
 
-*Pedido - Prato:
+* Pedido - Prato:
 A relação entre Pedido e Prato é "Muitos para Muitos" (M:N), o que significa que um pedido pode conter muitos pratos, e um prato pode estar em muitos pedidos. Isso é comum em sistemas de pedidos de restaurantes, onde um pedido pode incluir vários pratos diferentes, e um prato pode ser solicitado em vários pedidos.
 
-*Estoque - Prato:
+* Estoque - Prato:
 A relação entre Estoque e Prato é "1 para 0 ou mais". Isso significa que um prato pode estar no estoque em uma quantidade específica, e pode haver vários pratos diferentes no estoque. Cada prato no estoque está relacionado a um único prato.
 
-*MetricasRestaurante - Pedido:
+* MetricasRestaurante - Pedido:
 A relação entre MetricasRestaurante e Pedido é "1 para 1 ou mais". Isso significa que um conjunto de métricas pode estar relacionado a um ou mais pedidos. Cada métrica está relacionada a um único pedido.
 
 ![Diagrama de Entidades e Relacionamento](img/DER.jpeg)
