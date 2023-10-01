@@ -26,6 +26,7 @@ namespace DriveExpressAPI.Controllers
             return Ok(model);
         }
 
+        [Authorize(Roles = "Gerente")]
         [HttpPost]
         public async Task<ActionResult> Create(Cardapio model)
         {
@@ -47,6 +48,7 @@ namespace DriveExpressAPI.Controllers
             return Ok(model);
         }
 
+        [Authorize(Roles = "Gerente, Funcionario")]
         [HttpPut("{id}")]
         public async Task<ActionResult> Update(int id, Cardapio model)
         {
@@ -64,6 +66,7 @@ namespace DriveExpressAPI.Controllers
             return NoContent();
         }
 
+        [Authorize(Roles = "Gerente")]
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(int id)
         {

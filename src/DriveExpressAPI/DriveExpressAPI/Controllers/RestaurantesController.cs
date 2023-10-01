@@ -26,6 +26,7 @@ namespace DriveExpressAPI.Controllers
             return Ok(model);
         }
 
+        [Authorize(Roles = "Gerente")]
         [HttpPost]
         public async Task<ActionResult> Create(Restaurante model)
         {
@@ -53,6 +54,7 @@ namespace DriveExpressAPI.Controllers
             return Ok(model);
         }
 
+        [Authorize(Roles = "Gerente")]
         [HttpPut("{id}")]
         public async Task<ActionResult> Update(int id, Restaurante model)
         {
@@ -70,6 +72,7 @@ namespace DriveExpressAPI.Controllers
             return NoContent();
         }
 
+        [Authorize(Roles = "Gerente")]
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(int id)
         {
