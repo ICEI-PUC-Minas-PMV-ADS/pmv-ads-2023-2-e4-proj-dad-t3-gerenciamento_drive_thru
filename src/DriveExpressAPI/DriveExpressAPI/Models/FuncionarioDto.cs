@@ -1,9 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.Text.Json.Serialization;
 
 namespace DriveExpressAPI.Models
 {
-    public class UsuarioDto
+    public class FuncionarioDto
     {
         public int? Id { get; set; }
 
@@ -13,5 +12,7 @@ namespace DriveExpressAPI.Models
         [Required]
         public string Password { get; set; }
 
+        [Required]
+        public Perfil Perfil { get; set; }
     }
 }

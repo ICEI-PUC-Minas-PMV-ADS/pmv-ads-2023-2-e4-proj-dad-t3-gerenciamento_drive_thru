@@ -7,11 +7,11 @@ namespace DriveExpressAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UsuariosController : ControllerBase
+    public class FuncionariosController : ControllerBase
     {
         private readonly AppDbContext _context;
 
-        public UsuariosController(AppDbContext context)
+        public FuncionariosController(AppDbContext context)
         {
             _context = context;
         }
@@ -19,21 +19,22 @@ namespace DriveExpressAPI.Controllers
         [HttpGet]
         public async Task<ActionResult> GetAll()
         {
-            var model = await _context.Usuarios.ToListAsync();
+            var model = await _context.Funcionarios.ToListAsync();
 
             return Ok(model);
         }
 
         [HttpPost]
-        public async Task<ActionResult> Create(UsuarioDto model)
+        public async Task<ActionResult> Create(FuncionarioDto model)
         {
-            Usuario novo = new Usuario()
+            Funcionario novo = new Funcionario()
             {
                 Nome = model.Nome,
-                Password = BCrypt.Net.BCrypt.HashPassword(model.Password)
+                Password = BCrypt.Net.BCrypt.HashPassword(model.Password),
+                Perfil = model.Perfil
             };
-            
-            _context.Usuarios.Add(novo);
+
+            _context.Funcionarios.Add(novo);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetById", new { id = novo.Id }, novo);
@@ -42,7 +43,7 @@ namespace DriveExpressAPI.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult> GetById(int id)
         {
-            var model = await _context.Usuarios
+            var model = await _context.Funcionarios
                 .FirstOrDefaultAsync(c => c.Id == id);
 
             if (model == null) return NotFound();
@@ -51,11 +52,11 @@ namespace DriveExpressAPI.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult> Update(int id, UsuarioDto model)
+        public async Task<ActionResult> Update(int id, FuncionarioDto model)
         {
             if (id != model.Id) return BadRequest();
 
-            var modeloDb = await _context.Usuarios
+            var modeloDb = await _context.Funcionarios
                 .AsNoTracking()
                 .FirstOrDefaultAsync(c => c.Id == id);
 
@@ -63,8 +64,9 @@ namespace DriveExpressAPI.Controllers
 
             modeloDb.Nome = model.Nome;
             modeloDb.Password = BCrypt.Net.BCrypt.HashPassword(model.Password);
+            modeloDb.Perfil = model.Perfil;
 
-            _context.Usuarios.Update(modeloDb);
+            _context.Funcionarios.Update(modeloDb);
             await _context.SaveChangesAsync();
 
             return NoContent();
@@ -73,11 +75,11 @@ namespace DriveExpressAPI.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(int id)
         {
-            var model = await _context.Usuarios.FindAsync(id);
+            var model = await _context.Funcionarios.FindAsync(id);
 
             if (model == null) return NotFound();
 
-            _context.Usuarios.Remove(model);
+            _context.Funcionarios.Remove(model);
             await _context.SaveChangesAsync();
 
             return NoContent();
