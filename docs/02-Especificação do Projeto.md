@@ -1,10 +1,8 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+Muitos restaurantes que oferecem a opção de drive-thru possuem um serviço que é caracterizado por ser o oposto do que é pensado para ser: rápido. Esse gargalo de tempo entre o pedido e a entrega prejudicam a satisfação do cliente. Por outro lado tem-se a opção de não esperar no carro ao pedir comida por aplicativos de entrega. Nesse caso, espera-se em casa. O drive-tru planejado aqui visa solucionar esses gargalos. O usuário do sistema poderá realizar o seu pedido com antecedência e ir buscá-lo quando souber que já está pronto, agilizando o serviço. Muitas features serão adicionadas de forma a auxiliar o dia a dia do restaurante, fornecendo dados para funcionários e gerente de acordo com as demandas do trabalho de cada um.
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Abaixo são apresentadas as personas, histórias de usuários e requisitos planejados para o drive-thru.
 
 ## Personas
 ![Persona 1](img/Persona1.jpg)
@@ -45,12 +43,23 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em segu
 
 ## Indicadores de Desempenho
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
+Como será mostrado na seção de Diagrama de Classes, a classe MetricasRestaurante possui uma lista privada de pedidos para armazenar todos os pedidos feitos no restaurante.
+* O método AdicionarPedido permite adicionar um pedido à lista de pedidos.
+* O método QuantidadeProdVendidosMes calcula a quantidade total de produtos vendidos no mês e ano especificados.
+* O método SatisfacaoMediaPorPrato calcula a satisfação média do cliente com cada prato com base nas avaliações dos clientes.
+* Os métodos PratosMaisVendidos e PratosMenosVendidos retornam listas de pratos ordenados por quantidade vendida, de forma descendente e ascendente, respectivamente.
 
-Usar o seguinte modelo: 
+Dessa forma, os seguintes indicadores são apresentados
 
-![Indicadores de Desempenho](img/02-indic-desemp.png)
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
+|Indicador           | Objetivos             | Descrição            | Fonte de dados | Perspectiva      |
+|--------------------|-----------------------|----------------------|----------------|------------------|
+|Quantidade de vendas| Avaliar quantitativamente o desempenho do restaurante e permite alinhar estratégias de marketing e crescimento | Permite comparar ao longo dos meses se o restaurante está crescendo em popularidade e permitindo aumentar o faturamento| Lista de pedidos | Processos internos | 
+|Pratos mais vendidos | Permite desenhar estratégias de vendas como promoções, ajuste de preços, controle de estoque e oferta de produtos | Informa quais os pratos que tem mais saída, a partir dos dados obtidos a equipe de analistas pode fazer correlações com meses, estações, horário e com isso organizar o trabalho da cozinha | Lista de pedidos | Aprendizagem e crescimento, procesos internos|
+|Pratos menos vendidos | Permite realizar ajuste de preços, controle de estoque e oferta de produtos, inclusive retirá-los do cardápio | Informa quais os pratos que tem menos saída, a partir dos dados obtidos a equipe de analistas pode fazer correlações com meses, estações, horário e com isso organizar o trabalho da cozinha | Lista de pedidos | Aprendizagem e crescimento, procesos internos|
+|Pratos com melhor avaliação | Permite desenhar estratégias de marketing e ofertas | Informa quais os pratos melhor avaliados, a partir dos dados obtidos pode-se melhorar a atratividade do site | Lista de avaliações | Aprendizagem e crescimento|
+
+
+ 
 
 ## Requisitos
 

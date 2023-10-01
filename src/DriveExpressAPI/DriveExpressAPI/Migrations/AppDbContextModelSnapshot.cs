@@ -47,7 +47,7 @@ namespace DriveExpressAPI.Migrations
                     b.Property<int>("RestauranteId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("RestaurantesId")
+                    b.Property<int>("Tipo")
                         .HasColumnType("int");
 
                     b.Property<decimal>("Valor")
@@ -55,12 +55,12 @@ namespace DriveExpressAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("RestaurantesId");
+                    b.HasIndex("RestauranteId");
 
-                    b.ToTable("Cardápio");
+                    b.ToTable("Cardapios");
                 });
 
-            modelBuilder.Entity("DriveExpressAPI.Models.Restaurantes", b =>
+            modelBuilder.Entity("DriveExpressAPI.Models.LinkDto", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -68,9 +68,40 @@ namespace DriveExpressAPI.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Categoria")
-                        .IsRequired()
+                    b.Property<int?>("CardapioId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Href")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Metodo")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Rel")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("RestauranteId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CardapioId");
+
+                    b.HasIndex("RestauranteId");
+
+                    b.ToTable("LinkDto");
+                });
+
+            modelBuilder.Entity("DriveExpressAPI.Models.Restaurante", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Categoria")
+                        .HasColumnType("int");
 
                     b.Property<string>("Endereco")
                         .IsRequired()
@@ -89,18 +120,101 @@ namespace DriveExpressAPI.Migrations
                     b.ToTable("Restaurantes");
                 });
 
+            modelBuilder.Entity("DriveExpressAPI.Models.RestauranteUsuarios", b =>
+                {
+                    b.Property<int>("RestauranteId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UsuarioId")
+                        .HasColumnType("int");
+
+                    b.HasKey("RestauranteId", "UsuarioId");
+
+                    b.HasIndex("UsuarioId");
+
+                    b.ToTable("RestauranteUsuarios");
+                });
+
+            modelBuilder.Entity("DriveExpressAPI.Models.Usuario", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Perfil")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Usuarios");
+                });
+
             modelBuilder.Entity("DriveExpressAPI.Models.Cardapio", b =>
                 {
-                    b.HasOne("DriveExpressAPI.Models.Restaurantes", "Restaurantes")
+                    b.HasOne("DriveExpressAPI.Models.Restaurante", "Restaurantes")
                         .WithMany("Cardapios")
-                        .HasForeignKey("RestaurantesId");
+                        .HasForeignKey("RestauranteId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Restaurantes");
                 });
 
-            modelBuilder.Entity("DriveExpressAPI.Models.Restaurantes", b =>
+            modelBuilder.Entity("DriveExpressAPI.Models.LinkDto", b =>
+                {
+                    b.HasOne("DriveExpressAPI.Models.Cardapio", null)
+                        .WithMany("Links")
+                        .HasForeignKey("CardapioId");
+
+                    b.HasOne("DriveExpressAPI.Models.Restaurante", null)
+                        .WithMany("Links")
+                        .HasForeignKey("RestauranteId");
+                });
+
+            modelBuilder.Entity("DriveExpressAPI.Models.RestauranteUsuarios", b =>
+                {
+                    b.HasOne("DriveExpressAPI.Models.Restaurante", "Restaurante")
+                        .WithMany()
+                        .HasForeignKey("RestauranteId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("DriveExpressAPI.Models.Usuario", "Usuario")
+                        .WithMany("Restaurantes")
+                        .HasForeignKey("UsuarioId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Restaurante");
+
+                    b.Navigation("Usuario");
+                });
+
+            modelBuilder.Entity("DriveExpressAPI.Models.Cardapio", b =>
+                {
+                    b.Navigation("Links");
+                });
+
+            modelBuilder.Entity("DriveExpressAPI.Models.Restaurante", b =>
                 {
                     b.Navigation("Cardapios");
+
+                    b.Navigation("Links");
+                });
+
+            modelBuilder.Entity("DriveExpressAPI.Models.Usuario", b =>
+                {
+                    b.Navigation("Restaurantes");
                 });
 #pragma warning restore 612, 618
         }

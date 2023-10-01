@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "qfwHQFngZA3x3uSGFpjfoCDLdtuTP+1/RXEEs+odUiKMvjEKMAQ3331XWR7OnB+6OR2MbnopIIi3sJlIsH8GwQ==",
+  "dgSpecHash": "wI9+k7tYcyHXcRZxYLtvf2VuX5cEmgnMjRhvVm6pbOJhO1i/VWeHfOV2evBkeeaZGYXj1FsIC8br2iQaxrtUkQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 4\\Projeto\\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\\src\\DriveExpressAPI\\DriveExpressAPI\\DriveExpressAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mfern\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\mfern\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\mfern\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\mfern\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\mfern\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.5\\microsoft.aspnetcore.authentication.jwtbearer.6.0.5.nupkg.sha512",
     "C:\\Users\\mfern\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\mfern\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\mfern\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",
