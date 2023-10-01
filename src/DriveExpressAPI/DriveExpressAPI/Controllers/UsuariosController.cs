@@ -32,6 +32,7 @@ namespace DriveExpressAPI.Controllers
         }
 
         [AllowAnonymous]
+        [Authorize(Roles = "Gerente")]
         [HttpPost]
         public async Task<ActionResult> Create(UsuarioDto model)
         {
@@ -56,10 +57,11 @@ namespace DriveExpressAPI.Controllers
 
             if (model == null) return NotFound();
 
+            GerarLinks(model);
             return Ok(model);
         }
 
-        [Authorize]
+        [Authorize(Roles = "Cliente")]
         [HttpPut("{id}")]
         public async Task<ActionResult> Update(int id, UsuarioDto model)
         {
@@ -80,7 +82,7 @@ namespace DriveExpressAPI.Controllers
             return NoContent();
         }
 
-        [Authorize]
+        [Authorize(Roles = "Cliente")]
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(int id)
         {
@@ -127,6 +129,13 @@ namespace DriveExpressAPI.Controllers
 
             var token = tokenHandler.CreateToken(tokenDescriptor);
             return tokenHandler.WriteToken(token);
+        }
+
+        private void GerarLinks(Usuario model)
+        {
+            model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "self", metodo: "GET"));
+            model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "update", metodo: "PUT"));
+            model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "delete", metodo: "DELETE"));
         }
     }
 }

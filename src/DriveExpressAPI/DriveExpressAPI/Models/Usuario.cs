@@ -5,7 +5,7 @@ using System.Text.Json.Serialization;
 namespace DriveExpressAPI.Models
 {
     [Table("Usuarios")]
-    public class Usuario
+    public class Usuario : LinksHATEOS
     {
         [Key]
         public int Id { get; set; }
@@ -16,6 +16,9 @@ namespace DriveExpressAPI.Models
         [Required]
         [JsonIgnore]
         public string Password { get; set;}
+
+        [Required]
+        public Perfil Perfil { get; set; }
 
         public ICollection<RestauranteUsuarios> Restaurantes { get; set; }
     }

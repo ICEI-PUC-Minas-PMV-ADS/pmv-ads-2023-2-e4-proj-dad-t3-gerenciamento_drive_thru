@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DriveExpressAPI.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20231001022855_DE00")]
+    [Migration("20231001184413_DE00")]
     partial class DE00
     {
         /// <inheritdoc />
@@ -98,11 +98,17 @@ namespace DriveExpressAPI.Migrations
                     b.Property<int?>("CardapioId")
                         .HasColumnType("int");
 
+                    b.Property<int?>("FuncionarioId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Href")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Metodo")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("PedidoId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Rel")
                         .HasColumnType("nvarchar(max)");
@@ -110,13 +116,44 @@ namespace DriveExpressAPI.Migrations
                     b.Property<int?>("RestauranteId")
                         .HasColumnType("int");
 
+                    b.Property<int?>("UsuarioId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("CardapioId");
 
+                    b.HasIndex("FuncionarioId");
+
+                    b.HasIndex("PedidoId");
+
                     b.HasIndex("RestauranteId");
 
+                    b.HasIndex("UsuarioId");
+
                     b.ToTable("LinkDto");
+                });
+
+            modelBuilder.Entity("DriveExpressAPI.Models.Pedido", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Cardapio")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nome")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Restaurante")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Pedidos");
                 });
 
             modelBuilder.Entity("DriveExpressAPI.Models.Restaurante", b =>
@@ -178,6 +215,9 @@ namespace DriveExpressAPI.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("Perfil")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.ToTable("Usuarios");
@@ -200,9 +240,21 @@ namespace DriveExpressAPI.Migrations
                         .WithMany("Links")
                         .HasForeignKey("CardapioId");
 
+                    b.HasOne("DriveExpressAPI.Models.Funcionario", null)
+                        .WithMany("Links")
+                        .HasForeignKey("FuncionarioId");
+
+                    b.HasOne("DriveExpressAPI.Models.Pedido", null)
+                        .WithMany("Links")
+                        .HasForeignKey("PedidoId");
+
                     b.HasOne("DriveExpressAPI.Models.Restaurante", null)
                         .WithMany("Links")
                         .HasForeignKey("RestauranteId");
+
+                    b.HasOne("DriveExpressAPI.Models.Usuario", null)
+                        .WithMany("Links")
+                        .HasForeignKey("UsuarioId");
                 });
 
             modelBuilder.Entity("DriveExpressAPI.Models.RestauranteUsuarios", b =>
@@ -229,6 +281,16 @@ namespace DriveExpressAPI.Migrations
                     b.Navigation("Links");
                 });
 
+            modelBuilder.Entity("DriveExpressAPI.Models.Funcionario", b =>
+                {
+                    b.Navigation("Links");
+                });
+
+            modelBuilder.Entity("DriveExpressAPI.Models.Pedido", b =>
+                {
+                    b.Navigation("Links");
+                });
+
             modelBuilder.Entity("DriveExpressAPI.Models.Restaurante", b =>
                 {
                     b.Navigation("Cardapios");
@@ -238,6 +300,8 @@ namespace DriveExpressAPI.Migrations
 
             modelBuilder.Entity("DriveExpressAPI.Models.Usuario", b =>
                 {
+                    b.Navigation("Links");
+
                     b.Navigation("Restaurantes");
                 });
 #pragma warning restore 612, 618

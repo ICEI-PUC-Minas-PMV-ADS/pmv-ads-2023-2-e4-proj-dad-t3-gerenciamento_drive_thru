@@ -26,6 +26,21 @@ namespace DriveExpressAPI.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Pedidos",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Restaurante = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Cardapio = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Pedidos", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Restaurantes",
                 columns: table => new
                 {
@@ -48,7 +63,8 @@ namespace DriveExpressAPI.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Password = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Password = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Perfil = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -114,7 +130,10 @@ namespace DriveExpressAPI.Migrations
                     Rel = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Metodo = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     CardapioId = table.Column<int>(type: "int", nullable: true),
-                    RestauranteId = table.Column<int>(type: "int", nullable: true)
+                    FuncionarioId = table.Column<int>(type: "int", nullable: true),
+                    PedidoId = table.Column<int>(type: "int", nullable: true),
+                    RestauranteId = table.Column<int>(type: "int", nullable: true),
+                    UsuarioId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -125,9 +144,24 @@ namespace DriveExpressAPI.Migrations
                         principalTable: "Cardapios",
                         principalColumn: "Id");
                     table.ForeignKey(
+                        name: "FK_LinkDto_Funcionarios_FuncionarioId",
+                        column: x => x.FuncionarioId,
+                        principalTable: "Funcionarios",
+                        principalColumn: "Id");
+                    table.ForeignKey(
+                        name: "FK_LinkDto_Pedidos_PedidoId",
+                        column: x => x.PedidoId,
+                        principalTable: "Pedidos",
+                        principalColumn: "Id");
+                    table.ForeignKey(
                         name: "FK_LinkDto_Restaurantes_RestauranteId",
                         column: x => x.RestauranteId,
                         principalTable: "Restaurantes",
+                        principalColumn: "Id");
+                    table.ForeignKey(
+                        name: "FK_LinkDto_Usuarios_UsuarioId",
+                        column: x => x.UsuarioId,
+                        principalTable: "Usuarios",
                         principalColumn: "Id");
                 });
 
@@ -142,9 +176,24 @@ namespace DriveExpressAPI.Migrations
                 column: "CardapioId");
 
             migrationBuilder.CreateIndex(
+                name: "IX_LinkDto_FuncionarioId",
+                table: "LinkDto",
+                column: "FuncionarioId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_LinkDto_PedidoId",
+                table: "LinkDto",
+                column: "PedidoId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_LinkDto_RestauranteId",
                 table: "LinkDto",
                 column: "RestauranteId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_LinkDto_UsuarioId",
+                table: "LinkDto",
+                column: "UsuarioId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_RestauranteUsuarios_UsuarioId",
@@ -156,9 +205,6 @@ namespace DriveExpressAPI.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Funcionarios");
-
-            migrationBuilder.DropTable(
                 name: "LinkDto");
 
             migrationBuilder.DropTable(
@@ -166,6 +212,12 @@ namespace DriveExpressAPI.Migrations
 
             migrationBuilder.DropTable(
                 name: "Cardapios");
+
+            migrationBuilder.DropTable(
+                name: "Funcionarios");
+
+            migrationBuilder.DropTable(
+                name: "Pedidos");
 
             migrationBuilder.DropTable(
                 name: "Usuarios");

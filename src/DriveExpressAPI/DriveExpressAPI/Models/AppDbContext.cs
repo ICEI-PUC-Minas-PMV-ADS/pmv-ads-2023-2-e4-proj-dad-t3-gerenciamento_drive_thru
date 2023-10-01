@@ -26,6 +26,8 @@ namespace DriveExpressAPI.Models
 
         public DbSet<Funcionario> Funcionarios { get; set; }
 
+        public DbSet<Pedido> Pedidos { get; set; }
+
         public DbSet<RestauranteUsuarios> RestauranteUsuarios { get; set; }
     }
 }

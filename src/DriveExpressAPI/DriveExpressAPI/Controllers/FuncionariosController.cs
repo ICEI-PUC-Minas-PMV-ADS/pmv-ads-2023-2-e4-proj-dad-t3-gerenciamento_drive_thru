@@ -57,6 +57,7 @@ namespace DriveExpressAPI.Controllers
 
             if (model == null) return NotFound();
 
+            GerarLinks(model);
             return Ok(model);
         }
 
@@ -130,6 +131,13 @@ namespace DriveExpressAPI.Controllers
 
             var token = tokenHandler.CreateToken(tokenDescriptor);
             return tokenHandler.WriteToken(token);
+        }
+
+        private void GerarLinks(Funcionario model)
+        {
+            model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "self", metodo: "GET"));
+            model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "update", metodo: "PUT"));
+            model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "delete", metodo: "DELETE"));
         }
     }
 }

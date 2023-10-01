@@ -1,8 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel.DataAnnotations;
 
 namespace DriveExpressAPI.Models
 {
-    public class Funcionario
+    public class Funcionario : LinksHATEOS
     {
         [Required]
         public int Id { get; set; }
@@ -22,6 +23,8 @@ namespace DriveExpressAPI.Models
         [Display(Name = "Gerente")]
         Gerente,
         [Display(Name = "Funcionario")]
-        Funcionario
+        Funcionario,
+        [Display(Name = "Cliente")]
+        Cliente
     }
 }
