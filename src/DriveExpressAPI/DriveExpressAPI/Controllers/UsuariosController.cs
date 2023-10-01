@@ -22,6 +22,7 @@ namespace DriveExpressAPI.Controllers
             _context = context;
         }
 
+        [Authorize(Roles = "Gerente")]
         [HttpGet]
         public async Task<ActionResult> GetAll()
         {
@@ -30,6 +31,7 @@ namespace DriveExpressAPI.Controllers
             return Ok(model);
         }
 
+        [AllowAnonymous]
         [HttpPost]
         public async Task<ActionResult> Create(UsuarioDto model)
         {
@@ -45,6 +47,7 @@ namespace DriveExpressAPI.Controllers
             return CreatedAtAction("GetById", new { id = novo.Id }, novo);
         }
 
+        [Authorize(Roles = "Gerente")]
         [HttpGet("{id}")]
         public async Task<ActionResult> GetById(int id)
         {
@@ -56,6 +59,7 @@ namespace DriveExpressAPI.Controllers
             return Ok(model);
         }
 
+        [Authorize]
         [HttpPut("{id}")]
         public async Task<ActionResult> Update(int id, UsuarioDto model)
         {
@@ -76,6 +80,7 @@ namespace DriveExpressAPI.Controllers
             return NoContent();
         }
 
+        [Authorize]
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(int id)
         {

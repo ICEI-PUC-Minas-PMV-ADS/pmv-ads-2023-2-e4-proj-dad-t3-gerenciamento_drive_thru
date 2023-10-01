@@ -26,7 +26,7 @@ namespace DriveExpressAPI.Controllers
             return Ok(model);
         }
 
-        [Authorize(Roles = "Gerente")]
+        [Authorize(Roles = "Gerente, Funcionario")]
         [HttpPost]
         public async Task<ActionResult> Create(Cardapio model)
         {
