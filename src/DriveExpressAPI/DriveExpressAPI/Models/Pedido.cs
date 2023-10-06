@@ -1,16 +1,26 @@
-﻿namespace DriveExpressAPI.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace DriveExpressAPI.Models
 {
     public class Pedido : LinksHATEOS
     {
+        [Required]
         public int Id { get; set; }
 
-        public string Nome { get; set; }
+        [Required]
+        public string Descricao { get; set; }
 
-        public string Restaurante { get; set; }
+        [Required]
+        public int Quantidade { get; set; }
 
-        public string Cardapio { get; set; }
+        [Required]
+        public double Valor { get; set; }
 
-        public Restaurante Restaurantes { get; set; }
+        [Required]
+        public int RestauranteId { get; set; }
+
+        [Required]
+        public string NomeUsuario { get; set; }
 
         public Cardapio Cardapios { get; set; }
     }
