@@ -1,5 +1,18 @@
 # Especificações do Projeto
 
+O drive-thru, apesar de ser uma opção conveniente para muitos clientes, frequentemente enfrenta desafios que afetam a experiência do usuário como tempo de espera prolongado, precisão do pedido e falta de personalização por exemplo. Para melhorar a experiência do cliente no drive-thru, propomos uma solução que integra tecnologia, treinamento da equipe e personalização. Desenvolveremos um aplicativo móvel que os clientes podem usar para fazer pedidos antes de chegarem ao drive-thru. Isso reduzirá significativamente o tempo de espera, pois os pedidos estarão prontos quando o cliente chegar. A elaboração das especificações do projeto envolve técnicas e ferramentas que serão utilizadas, tais como:  
+
+* Brainstorming 
+* Modelagem de Processos 
+* Prototipagem 
+* Diagrama de Gantt 
+* Diagrama de Casos de Uso 
+* Diagramas de Arquitetura 
+* Avaliação de Usabilidade 
+* Documentação Técnica 
+* Simulação e Modelagem 
+* Validação de Requisitos 
+
 Muitos restaurantes que oferecem a opção de drive-thru possuem um serviço que é caracterizado por ser o oposto do que é pensado para ser: rápido. Esse gargalo de tempo entre o pedido e a entrega prejudicam a satisfação do cliente. Por outro lado tem-se a opção de não esperar no carro ao pedir comida por aplicativos de entrega. Nesse caso, espera-se em casa. O drive-tru planejado aqui visa solucionar esses gargalos. O usuário do sistema poderá realizar o seu pedido com antecedência e ir buscá-lo quando souber que já está pronto, agilizando o serviço. Muitas features serão adicionadas de forma a auxiliar o dia a dia do restaurante, fornecendo dados para funcionários e gerente de acordo com as demandas do trabalho de cada um.
 
 Abaixo são apresentadas as personas, histórias de usuários e requisitos planejados para o drive-thru.
