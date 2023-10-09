@@ -41,15 +41,27 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ### Análise da Situação Atual
 
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
+Os problemas motivadores da proposta foram apresentados no item 1.1. São eles: congestionamento frequente em drive-thrus, erros nos pedidos, baixa eficiência operacional, falta de coleta de dados para oferecer um serviço de maior qualidade, e baixa satisfação dos clientes. No entanto, onde há problema há oportunidade.  
+
+Dessa forma, o nosso projeto funciona de forma a unir os benefícios do drive-thru e dos deliveries por aplicativo. Criando assim uma experiência que une o melhor dos dois mundos e entrega um produto novo e com potencial de mercado. 
+
+O software integrado permite melhor gerenciamento dos pedidos e sistema de coleta de feedback de clientes que possibilita melhor gestão, e estratégias de marketing e growth. 
+
+Paralelamente permite que o cliente faça o pedido antes de chegar ao drive-thru e vá até o local quando o mesmo estiver pronto. Essa praticidade garante menor tempo de espera na fila, menos congestionamento do tráfico, e melhor organização dos funcionários no preparo e entrega dos pedidos. 
 
 ### Descrição Geral da Proposta
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+Embora a ideia se aplique a suprir as necessidades já identificadas como falhas nos serviços de drive-thru e delivery atualmente disponíveis do mercado, buscando uma melhor experiência do cliente; sabe-se que há limitações como em qualquer outro negócio. 
+
+Há a possibilidade de em determinados dias haver demanda exacerbada de pedidos de forma a faltar estoque ou mão de obra capaz de atender. Nesse ponto, faz-se necessário a longo prazo usar a análise de dados para prever esses períodos de alta demanda. 
+
+Por ser um serviço recente, faz-se necessário ainda usar a ciência de dados para identificar os gostos dos clientes e fazer promoções, propagandas e disponibilizar estoque de forma a aumentar os lucros e manter a qualidade do serviço e satisfação do cliente. 
+
+Com o tempo, identificar-se-á novas empresas de alimentação para ingressar no sistema. Transformando o atual MVP em um software B2B que agilize o sistema de outros restaurantes e entregue análises personalizadas para alavancar também as vendas deles. Esse desenvolvimento está pendente.
 
 ### Compra de produto
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
+O processo abaixo descreve como acontece a compra de um produto e o ciclo de compra do cliente. 
 
 ![Processo 1](img/Diagrama_processo.png)
 
