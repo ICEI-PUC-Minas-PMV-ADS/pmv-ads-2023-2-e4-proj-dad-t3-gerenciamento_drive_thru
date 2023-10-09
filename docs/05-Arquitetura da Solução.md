@@ -87,9 +87,50 @@ A relação entre MetricasRestaurante e Pedido é "1 para 1 ou mais". Isso signi
 Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do banco de dados. Este arquivo deverá ser incluído dentro da pasta src\bd.
 
 ## Tecnologias Utilizadas
+### Implementação Web API Rest
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+O projeto foi idealizado utilizando a plataforma de desenvolvimento .NET Framework, escolhendo-se esse pacote de soluções devido à sua acessibilidade e ao conjunto abrangente de ferramentas que oferece para facilitar a implementação da solução em questão. O código-fonte do nosso sistema de gerenciamento, denominado DriveXpress, está hospedado no repositório Github/DriveXpress. 
 
+A seguir, fornecemos um resumo conciso das escolhas das ferramentas adotadas no desenvolvimento desta solução, incluindo detalhes sobre a estrutura de desenvolvimento, perspectivas de implementação e a justificativa das tecnologias selecionadas. 
+
+#### Escopo da solução: Documentação da arquitetura, configuração do ambiente, modelagem dos dados, autenticação, recursos e rotas.
+
+O projeto foi concebido no ambiente de desenvolvimento Visual Studio Community, utilizando a linguagem de programação C# como base. A escolha dessa IDE foi motivada pela ampla gama de funcionalidades e ferramentas disponíveis, que simplificam a criação de uma API destinada a um sistema de gerenciamento de restaurantes operando no modelo de Drive-Thru.   
+
+No que diz respeito à modelagem de dados, aproveitamos as capacidades oferecidas pelo pacote Microsoft Entity Framework, um ORM (Object-Relational Mapping) que facilita a criação e organização de um banco de dados relacional, garantindo uma estrutura eficiente e escalável.  
+
+Para a implementação da autenticação de usuário no sistema, recorremos ao pacote BCrypt, que fornece recursos essenciais para criptografar as senhas armazenadas no sistema, assegurando a segurança das informações dos usuários.  
+
+No âmbito da criação de rotas, adotamos protocolos de requisição HTTP, incluindo GET, POST, PUT e DELETE, para desenvolver um sistema de CRUD, abrangendo funcionalidades relacionadas a usuários, restaurantes, produtos do cardápio e pedidos realizados pelos clientes ao fazer uso da plataforma DriveXpress. Esse conjunto de recursos permitirá uma interação dinâmica e eficaz com o sistema, oferecendo uma experiência completa aos usuários e proprietários de restaurantes. 
+
+#### Armazenamento de dados – Sistema DriveXpress 
+
+O sistema DriveXpress utiliza o Entity Framework, um ORM com base no SQL Server, para gerenciar eficazmente os dados. Ele incorpora uma série de funcionalidades para manipular informações fornecidas pelos usuários, abrangendo a criação, atualização, exclusão e consulta de dados registrados no sistema.  
+
+No que se refere às operações relacionadas a restaurantes, os usuários podem gerenciar informações essenciais, incluindo nome, e-mail, telefone, endereço, categoria de atuação, produtos oferecidos, clientes cadastrados e pedidos. Além disso, o sistema permite realizar tarefas como a atualização, exclusão e consulta desses dados.  
+
+Para a gestão de informações de usuários, é possível criar novos perfis com nome, e-mail, senha e especificar o perfil de usuário (cliente, funcionário ou gerente). O sistema impõe restrições de acesso de acordo com o perfil, garantindo que os usuários tenham acesso apenas às informações apropriadas. Da mesma forma, é possível atualizar, excluir e consultar dados de usuários.   
+
+No que diz respeito ao cardápio, funcionários podem cadastrar produtos, incluindo nome do prato, quantidade, descrição, valor unitário e tipo (comida, bebida, sobremesa). Além disso, é especificado qual restaurante oferece cada produto. O sistema oferece ferramentas para atualizar, excluir e consultar esses dados de forma eficiente. 
+
+Além disso, o sistema permite o registro de informações sobre os produtos incluídos em um pedido, solicitando detalhes como nome do usuário, descrição do pedido, quantidade, valor total do pedido e restaurante. As mesmas ferramentas de atualização, exclusão e consulta são disponibilizadas para esses dados.  
+
+Em resumo, o sistema DriveXpress oferece uma variedade de funcionalidades abrangentes e amigáveis para que usuários possam administrar informações relacionadas a restaurantes, clientes, cardápios e pedidos, proporcionando uma experiência completa de gerenciamento de restaurantes de maneira eficiente e intuitiva. 
+
+#### Ferramentas de desenvolvimento e suas funcionalidades 
+
+Optou-se pelo ambiente de desenvolvimento .Net Core para a criação da solução de gerenciamento DriveThru, conhecida como DriveXpress, devido ao amadurecimento do framework e às facilidades oferecidas por meio de ferramentas de manipulação de dados, como o ORM Entity Framework, e recursos de criptografia de senhas, como o BCrypt. Além disso, a abundante documentação disponível na internet e no site oficial da Microsoft contribuíram para essa escolha. 
+
+Quanto à definição dos parâmetros para a construção do aplicativo DriveXpress, foi adotada uma abordagem que combina informações sobre as entidades que compõem a solução. Essa estratégia visa assegurar a confiabilidade e robustez do sistema para todas as partes envolvidas, incluindo usuários, restaurantes, produtos e pedidos. Essa composição de dados cuidadosamente planejada é fundamental para o funcionamento sólido e eficaz do sistema, proporcionando uma experiência confiável e satisfatória para todos os usuários e stakeholders. 
+
+.
+.
+.
+.
+.
+.
+
+### Notas: apagar quando concluído
 Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
 
 ## Hospedagem
