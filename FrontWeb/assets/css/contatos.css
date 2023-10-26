@@ -85,3 +85,36 @@
       bottom: 1em;
     }
   }
+
+  /* CARDS */
+#mini-banners {
+    margin-bottom: 4em;
+  }
+  
+  #mini-banners .card {
+    padding: 2em 0.3em;
+    border-radius: 0;
+  }
+  
+  #mini-banners i {
+    font-size: 4em;
+  }
+  
+  #mini-banners .card-title {
+    margin-bottom: 1.5em;
+  }
+  
+  #mini-banners .btn {
+    margin-top: 1.5em;
+    padding: 0.6em 1.2em;
+  }
+  
+  #mini-banners .card {
+    margin-bottom: 1em;
+  }
+  
+  @media (min-width: 768px) {
+    #mini-banners {
+      margin-top: -3em;
+    }
+  }
