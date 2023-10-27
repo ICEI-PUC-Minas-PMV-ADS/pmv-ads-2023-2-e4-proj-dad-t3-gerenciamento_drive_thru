@@ -202,6 +202,7 @@ section {
   }
 }
 
+
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
@@ -264,6 +265,7 @@ section {
 section {
   scroll-margin-top: 90px;
 }
+
 
 @media (min-width: 1280px) {
   .navbar {
@@ -733,6 +735,7 @@ section {
   }
 }
 
+
 .stats-counter {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/stats-bg.jpg") center center;
   background-size: cover;
@@ -765,6 +768,7 @@ section {
   font-weight: 700;
   color: rgba(255, 255, 255, 0.6);
 }
+
 
 .menu .nav-tabs {
   border: 0;

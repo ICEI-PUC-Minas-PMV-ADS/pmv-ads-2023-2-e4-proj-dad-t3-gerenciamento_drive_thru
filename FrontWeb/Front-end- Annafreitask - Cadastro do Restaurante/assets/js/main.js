@@ -1,7 +1,8 @@
+
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
 
-  
+
   const preloader = document.querySelector('#preloader');
   if (preloader) {
     window.addEventListener('load', () => {
@@ -9,14 +10,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  
   const selectHeader = document.querySelector('#header');
   if (selectHeader) {
     document.addEventListener('scroll', () => {
       window.scrollY > 100 ? selectHeader.classList.add('sticked') : selectHeader.classList.remove('sticked');
     });
   }
-
 
   let navbarlinks = document.querySelectorAll('#navbar a');
 
@@ -40,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('load', navbarlinksActive);
   document.addEventListener('scroll', navbarlinksActive);
 
- 
+  
   const mobileNavShow = document.querySelector('.mobile-nav-show');
   const mobileNavHide = document.querySelector('.mobile-nav-hide');
 
@@ -73,7 +72,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   });
 
-  
   const navDropdowns = document.querySelectorAll('.navbar .dropdown > a');
 
   navDropdowns.forEach(el => {
@@ -90,7 +88,6 @@ document.addEventListener('DOMContentLoaded', () => {
     })
   });
 
-  
   const scrollTop = document.querySelector('.scroll-top');
   if (scrollTop) {
     const togglescrollTop = function() {
@@ -104,12 +101,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }));
   }
 
- 
   const glightbox = GLightbox({
     selector: '.glightbox'
   });
 
-  
+ 
   new PureCounter();
 
   
