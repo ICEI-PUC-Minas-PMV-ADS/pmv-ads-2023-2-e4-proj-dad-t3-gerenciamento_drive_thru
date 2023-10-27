@@ -1,37 +1,19 @@
-/**
-* Template Name: Yummy
-* Updated: Sep 18 2023 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# Set main reusable colors and fonts using CSS variables
-# Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
---------------------------------------------------------------*/
-/* Fonts */
 :root {
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-primary: "Amatic SC", sans-serif;
   --font-secondary: "Inter", sans-serif;
 }
 
-/* Colors */
 :root {
   --color-default: #212529;
   --color-primary: #ce1212;
   --color-secondary: #37373f;
 }
 
-/* Smooth scroll behavior */
 :root {
   scroll-behavior: smooth;
 }
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: var(--font-default);
   color: var(--color-default);
@@ -56,9 +38,6 @@ h6 {
   font-family: var(--font-secondary);
 }
 
-/*--------------------------------------------------------------
-# Sections & Section Header
---------------------------------------------------------------*/
 section {
   overflow: hidden;
   padding: 80px 0;
@@ -95,9 +74,6 @@ section {
   color: var(--color-primary);
 }
 
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
   background: rgba(55, 55, 63, 0.05);
@@ -154,9 +130,6 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Scroll top button
---------------------------------------------------------------*/
 .scroll-top {
   position: fixed;
   visibility: hidden;
@@ -187,9 +160,6 @@ section {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Preloader
---------------------------------------------------------------*/
 #preloader {
   position: fixed;
   inset: 0;
@@ -232,18 +202,13 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Disable aos animation delay on mobile devices
---------------------------------------------------------------*/
+
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
 }
 
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
 .header {
   background: #fff;
   transition: all 0.5s;
@@ -280,6 +245,24 @@ section {
   color: var(--color-primary);
 }
 
+.btn-outline-secondary {
+  background-color: var(--color-primary);
+  --bs-btn-color: #fff;
+  --bs-btn-border-color: #ec2727;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #ec2727;
+  --bs-btn-hover-border-color: #ec2727;
+  --bs-btn-focus-shadow-rgb: 108,117,125;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #ec2727;
+  --bs-btn-active-border-color: #ec2727;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #ec2727;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #ec2727;
+  --bs-gradient: none;
+}
+
 .header .btn-book-a-table,
 .header .btn-book-a-table:focus {
   font-size: 14px;
@@ -301,9 +284,7 @@ section {
   scroll-margin-top: 90px;
 }
 
-/*--------------------------------------------------------------
-# Desktop Navigation
---------------------------------------------------------------*/
+
 @media (min-width: 1280px) {
   .navbar {
     padding: 0;
@@ -450,9 +431,6 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Mobile Navigation
---------------------------------------------------------------*/
 @media (max-width: 1279px) {
   .navbar {
     position: fixed;
@@ -564,9 +542,6 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# About Section
---------------------------------------------------------------*/
 .about .about-img {
   min-height: 500px;
 }
@@ -702,9 +677,6 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Why Us Section
---------------------------------------------------------------*/
 .why-us .why-box {
   padding: 30px;
   background: var(--color-primary);
@@ -781,9 +753,7 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Stats Counter Section
---------------------------------------------------------------*/
+
 .stats-counter {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/stats-bg.jpg") center center;
   background-size: cover;
@@ -817,9 +787,7 @@ section {
   color: rgba(255, 255, 255, 0.6);
 }
 
-/*--------------------------------------------------------------
-# Menu Section
---------------------------------------------------------------*/
+
 .menu .nav-tabs {
   border: 0;
 }
@@ -918,9 +886,6 @@ section {
   color: var(--color-primary);
 }
 
-/*--------------------------------------------------------------
-# Testimonials Section
---------------------------------------------------------------*/
 .testimonials .section-header {
   margin-bottom: 40px;
 }
@@ -1002,9 +967,6 @@ section {
   background-color: var(--color-primary);
 }
 
-/*--------------------------------------------------------------
-# Events Section
---------------------------------------------------------------*/
 .events .container-fluid {
   padding: 0;
 }
@@ -1076,9 +1038,6 @@ section {
   background-color: var(--color-primary);
 }
 
-/*--------------------------------------------------------------
-# Chefs Section
---------------------------------------------------------------*/
 .chefs .chef-member {
   overflow: hidden;
   text-align: center;
@@ -1169,9 +1128,6 @@ section {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Book A Table Section
---------------------------------------------------------------*/
 .book-a-table .reservation-img {
   min-height: 500px;
   background-size: cover;
@@ -1296,9 +1252,6 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Gallery Section
---------------------------------------------------------------*/
 .gallery {
   overflow: hidden;
 }
@@ -1337,9 +1290,6 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Contact Section
---------------------------------------------------------------*/
 .contact .info-item {
   background: #f4f4f4;
   padding: 30px;
@@ -1482,9 +1432,6 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
 .hero {
   width: 100%;
   background-size: cover;
@@ -1564,9 +1511,6 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
 .footer {
   font-size: 14px;
   background-color: #1f1f24;
