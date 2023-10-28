@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\DriveXpress",
+    "\\DriveXpress\\Properties"
   ],
+  "SelectedNode": "\\DriveXpress\\Properties\\launchSettings.json",
   "PreviewInSolutionExplorer": false
 }
