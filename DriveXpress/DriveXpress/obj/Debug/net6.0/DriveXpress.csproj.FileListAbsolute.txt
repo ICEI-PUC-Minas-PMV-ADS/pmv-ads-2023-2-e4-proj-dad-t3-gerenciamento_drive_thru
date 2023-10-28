@@ -68,3 +68,6 @@ C:\Workspace\DriveXpress\DriveXpress\bin\Debug\net6.0\runtimes\win\lib\netstanda
 C:\Workspace\DriveXpress\DriveXpress\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Workspace\DriveXpress\DriveXpress\bin\Debug\net6.0\BCrypt.Net-Next.dll
 C:\Workspace\DriveXpress\DriveXpress\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\mfern\Desktop\PUC\Matérias\Eixo 4\Projeto\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\DriveXpress\DriveXpress\obj\Debug\net6.0\DriveXpress.dll
+C:\Users\mfern\Desktop\PUC\Matérias\Eixo 4\Projeto\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\DriveXpress\DriveXpress\obj\Debug\net6.0\refint\DriveXpress.dll
+C:\Users\mfern\Desktop\PUC\Matérias\Eixo 4\Projeto\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\DriveXpress\DriveXpress\obj\Debug\net6.0\DriveXpress.pdb
