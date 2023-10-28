@@ -14,6 +14,9 @@ namespace DriveExpressAPI.Models
         public string Nome { get; set; }
 
         [Required]
+        public string CPF { get; set; }
+
+        [Required]
         [JsonIgnore]
         public string Password { get; set;}
 
