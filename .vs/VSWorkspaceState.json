@@ -5,9 +5,8 @@
     "\\DriveXpress\\DriveXpress",
     "\\DriveXpress\\DriveXpress\\Controllers",
     "\\DriveXpress\\DriveXpress\\Models",
-    "\\DriveXpress\\DriveXpress\\Properties",
-    "\\src"
+    "\\DriveXpress\\DriveXpress\\Properties"
   ],
-  "SelectedNode": "\\DriveXpress\\DriveXpress\\Properties\\launchSettings.json",
+  "SelectedNode": "\\DriveXpress\\DriveXpress.sln",
   "PreviewInSolutionExplorer": false
 }
