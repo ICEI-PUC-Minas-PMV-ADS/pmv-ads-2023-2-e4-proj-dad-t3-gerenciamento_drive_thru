@@ -18,6 +18,10 @@ O template criado está disponível no site https://github.com/ICEI-PUC-Minas-PM
 
 6.1 Tela Home Page
 A tela abrange o logo, o menu e o botão para fazer o cadastro do anunciante.
+![Imagem do WhatsApp de 2023-10-29 à(s) 19 13 46_daf3e9d1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/102244252/3bb934b4-225c-4e70-8455-3604c44d89d8)
+![Imagem do WhatsApp de 2023-10-29 à(s) 19 14 47_b1dc54b0](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/102244252/2ca5ce02-0ff7-46b0-8d18-230f57b0923a)
+
+
 
 6.2 Tela de Login
 Na tela de login, o anunciante realizará a sua entrada na plataforma a fim de possibilitar 
