@@ -40,7 +40,9 @@ plataforma e sua visualização são dispostos verticalmente.
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/102244252/dcb3c197-cefc-4acf-a2cf-aed2f22728d5)
 
 6.6 Tela Cadastro de Restaurante 
-Neste espaço o restaurante faz seu cadastro e deixa exposto seu produtos.
+Neste espaço o restaurante faz seu cadastro.
+![Captura de tela 2023-10-29 172046](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/102244252/cbb12030-a699-4cb4-af2c-b0d72a77803d)
+
 
 
 
