@@ -12,6 +12,7 @@ O template criado está disponível no site https://github.com/ICEI-PUC-Minas-PM
 - Tela de Produto
 - Tela Cadastro do Restaurante
 - Tela de Contatos
+- Tela de Termos
 
  A responsividade segue o padrão do Bootstrap.
 
@@ -42,6 +43,15 @@ plataforma e sua visualização são dispostos verticalmente.
 6.6 Tela Cadastro de Restaurante 
 Neste espaço o restaurante faz seu cadastro.
 ![Captura de tela 2023-10-29 172046](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/102244252/cbb12030-a699-4cb4-af2c-b0d72a77803d)
+![Captura de tela 2023-10-29 172114](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/102244252/adb231b4-c135-432e-9fea-20602ffd6e32)
+![Captura de tela 2023-10-29 172205](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/102244252/1bc0d648-17c5-4ad4-be8b-f9f3055eaba3)
+![Captura de tela 2023-10-29 172227](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/102244252/8a7f3df1-6cd7-4615-b947-66755bbdd360)
+![Captura de tela 2023-10-29 183537](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/102244252/42885e6c-73ed-4643-9b37-6a3da9e63426)
+
+6.7 Tela de Contatos
+Neste espaço você entende como entra em contato e entende melhor o driveXpress. 
+![Imagem do WhatsApp de 2023-10-27 à(s) 19 46 09_ee2f4b1a](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/102244252/d2123872-0b88-45e0-84bf-6c82c26b49b8)
+![Imagem do WhatsApp de 2023-10-27 à(s) 19 47 05_94f13315](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/102244252/6314416a-64de-404c-adc3-51fc30fde6ea)
 
 
 
