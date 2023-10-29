@@ -1,6 +1,8 @@
 
 # Projeto de Interface
-Considerando as razões expostas, a plataforma será desenvolvida conforme o design apresentado no fluxo do usuário. Para assegurar usabilidade e acessibilidade aos usuários, optaremos por um layout simples e fácil de navegar ao construir o site. 
+Em um universo cada vez mais conectado, a necessidade de interfaces intuitivas e eficientes torna-se crucial. Nosso projeto busca redefinir a experiência do usuário, oferecendo uma interação perfeita entre o usuário e o poderoso driver Thru. Exploraremos não apenas a funcionalidade, mas também a estética, garantindo que cada interação seja uma experiência visualmente agradável.  
+
+   Visando uma aplicação leve a fim de garantir usabilidade e acesso aos usuários, o site será construído utilizando um layout simples e de fácil manuseio. Alto contraste nos recursos gráficos e combinação de cores implantados para atender pessoas com daltonismo, serão adotados mantendo a estética e a missão do projeto, conectar pessoas. 
 
 ## Diagrama de Fluxo
 
