@@ -18,6 +18,21 @@ O template criado está disponível no site https://github.com/ICEI-PUC-Minas-PM
  A responsividade segue o padrão do Bootstrap.
 
 6.1 Tela Home Page
-A tela abrange o logo, o menu e o botão para fazer o cadastro do anunciante e alguns 
-itens cadastrados.
+A tela abrange o logo, o menu e o botão para fazer o cadastro do anunciante.
+
+6.2 Tela de Login
+Na tela de login, o anunciante realizará a sua entrada na plataforma a fim de possibilitar 
+a divulgação dos seus produtos ou serviços, assim como o acesso aos anúncios já 
+publicados na plataforma.
+
+![Imagem do WhatsApp de 2023-10-28 à(s) 08 12 02_1dae0244](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/102244252/d90c626b-d7af-48ab-9086-76717d87901e)
+
+6.3 Tela de Cadastro do Usuário
+Neste espaço o cliente fará o seu cadastro a fim de possibilitar fazer seu pedidos. 
+![Imagem do WhatsApp de 2023-10-28 à(s) 09 50 58_6764e211](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/102244252/81172d5f-7b0d-4790-be19-05c9a6fe9561)
+
+
+
+
+
 
