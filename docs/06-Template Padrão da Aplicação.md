@@ -16,3 +16,8 @@ O template criado está disponível no site https://github.com/ICEI-PUC-Minas-PM
 - Tela de Meus Anúncios
 
  A responsividade segue o padrão do Bootstrap.
+
+6.1 Tela Home Page
+A tela abrange o logo, o menu e o botão para fazer o cadastro do anunciante e alguns 
+itens cadastrados.
+
