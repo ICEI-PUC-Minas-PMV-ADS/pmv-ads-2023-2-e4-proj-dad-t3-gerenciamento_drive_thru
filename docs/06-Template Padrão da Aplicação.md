@@ -6,14 +6,12 @@ O template criado está disponível no site https://github.com/ICEI-PUC-Minas-PM
 
 - Tela Home Page
 - Tela de Login
+- Tela de Cadastro do Usuário
 - Tela Cadastro de Anunciantes
-- Tela Cadastro de Anúncios
-- Tela de Perfil do Anunciante
-- Tela de Produtos
-- Tela de Perfil do Anunciantes
-- Tela de Editor de Dados
-- Tela de Termos de Uso
-- Tela de Meus Anúncios
+- Tela Cadastro do Produto
+- Tela de Produto
+- Tela Cadastro do Restaurante
+- Tela de Contatos
 
  A responsividade segue o padrão do Bootstrap.
 
@@ -30,6 +28,22 @@ publicados na plataforma.
 6.3 Tela de Cadastro do Usuário
 Neste espaço o cliente fará o seu cadastro a fim de possibilitar fazer seu pedidos. 
 ![Imagem do WhatsApp de 2023-10-28 à(s) 09 50 58_6764e211](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/102244252/81172d5f-7b0d-4790-be19-05c9a6fe9561)
+
+6.4 Tela Cadastro de Produtos 
+No layout da página de produtos encontra-se somente os produtos registrados na 
+plataforma.
+![Imagem do WhatsApp de 2023-10-27 à(s) 23 24 02_41af81cf](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/102244252/3ac9eb8e-7fa7-4d87-a700-22c18cebbd01)
+
+6.5 Tela de Produtos 
+No layout da página de produtos encontra-se somente os produtos registrados na 
+plataforma e sua visualização são dispostos verticalmente.
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/102244252/dcb3c197-cefc-4acf-a2cf-aed2f22728d5)
+
+6.6 Tela Cadastro de Restaurante 
+Neste espaço o restaurante faz seu cadastro e deixa exposto seu produtos.
+
+
+
 
 
 
