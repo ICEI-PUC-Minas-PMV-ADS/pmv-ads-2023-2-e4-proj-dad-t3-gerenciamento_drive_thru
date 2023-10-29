@@ -14,3 +14,5 @@ O template criado está disponível no site https://github.com/ICEI-PUC-Minas-PM
 - Tela de Editor de Dados
 - Tela de Termos de Uso
 - Tela de Meus Anúncios
+
+ A responsividade segue o padrão do Bootstrap.
