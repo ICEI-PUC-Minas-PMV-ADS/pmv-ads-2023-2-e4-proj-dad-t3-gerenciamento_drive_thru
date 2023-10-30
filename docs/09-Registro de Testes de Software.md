@@ -63,6 +63,11 @@ Restaurantes cadastrados
 Usuários cadastrados com senhas criptografadas
 ![BD Criptografia de senhas](img/Teste29.png)
 
+## Conexão da Aplicação Web com a API
+
+A imagem abaixo mostra a conexão da tela de cadastro de alimentos com a API em funcionamento:
+![Web App e API](img/Integracao_WebApp_WebAPI.jpg)
+
 
 
 
