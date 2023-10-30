@@ -1,0 +1,10 @@
+{
+  "main": "public/index.html",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "browser-sync": "^2.29.3"
+  },
+  "scripts": {
+    "start": "browser-sync start --server --files *.html --port 8080"
+  }
+}
