@@ -8,8 +8,10 @@ Em um universo cada vez mais conectado, a necessidade de interfaces intuitivas e
 
 O esquema de construção da página do site “DriveXpress” é exemplificado abaixo através do fluxograma 1. A interação entre o usuário e o site está indicada por meio das setas. 
 
-> **Links Úteis**:
-> - [Fluxograma online: seis sites para fazer gráfico sem instalar nada | Produtividade | TechTudo](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
+
+![Exemplo de Wireframe](
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/blob/8b7b6f4ea102c49cf7ad044fc816cb853b464dcf/docs/img/Copy%20of%20Diagrama_de_fluxo.png)
+
 
 ## Wireframes
 
