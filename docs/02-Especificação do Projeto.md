@@ -83,8 +83,67 @@ Dessa forma, os seguintes indicadores são apresentados
 |Pratos menos vendidos | Permite realizar ajuste de preços, controle de estoque e oferta de produtos, inclusive retirá-los do cardápio | Informa quais os pratos que tem menos saída, a partir dos dados obtidos a equipe de analistas pode fazer correlações com meses, estações, horário e com isso organizar o trabalho da cozinha | Lista de pedidos | Aprendizagem e crescimento, procesos internos|
 |Pratos com melhor avaliação | Permite desenhar estratégias de marketing e ofertas | Informa quais os pratos melhor avaliados, a partir dos dados obtidos pode-se melhorar a atratividade do site | Lista de avaliações | Aprendizagem e crescimento|
 
+Para exemplificar o funcionamento das métricas foi feita a seguinte análise de dados:
 
- 
+O restaurante Alfredo paga uma alíquota de 16% sobre cada venda realizada através do DriveXpress e a seguir são mostradas as análises de dados de vendas e avaliações obtidas nos primeiros 3 meses de 2023.
+
+|Prato| Preço|Jan|Fev|Mar|
+|-----|----|----|----|----|
+|Ravioli Frito|	 R$  15,00|22|19|20|
+|Lulas|	 R$  21,00 |18|20|22|
+|Iscas de berinjela|	 R$  18,00 	|12|14|16|
+|Vagens fritas|	 R$  15,00 |20|18|19|
+|Abobrinhas fritas|	 R$  15,00 |15|15|14|
+|Sanduiche de frango grelhado|	 R$  20,00 	|14|13|15|
+|Sanduiche de Filé Mignon|	 R$  28,00 |18|16|20|
+|Sanduiche de queijo grelhado|	 R$  20,00 	|10|12|10|
+|Massa de vegetais|	 R$  40,00 |6|5|6|
+|Spaghetti Sisco|	 R$  38,00 	|12|15|14|
+|Tortellini|	 R$  30,00 |8|9|8|
+|Fettuccine Alfredo|	 R$  36,00 	|5|6|7|
+
+
+||	Média Jan| Média Fev|Média Mar|Qtde. Jan|Qtde. Fev|Qtde. Mar|
+|-|-|-|-|-|-|-|
+|Ravioli Frito|	4,8	|4,9	|4,7	|28	|25	|22|
+|Lulas	|4,8	|4,7	|4,8	|20	|22	|18|
+|Iscas de berinjela	|1,5	|2	|1	|18	|24	|20|
+|Vagens fritas	|3	|2,5	|2,7	|15	|20	|15|
+|Abobrinhas fritas	|2	|1,7	|1,6	|14	|18	|14|
+|Sanduíche de frango grelhado	|4	|3	|4	|21	|26	|23|
+|Sanduíche de Filé Mignon	|4,8	|5	|5	|25	|20	|22|
+|Sanduíche de queijo grelhado	|3	|4	|3	|12	|15	|20|
+|Massa de vegetais	|4,4	|4,8	|4,5	|10	|14	|12|
+|Spaghetti Sisco	|2	|3	|2	|16	|18	|16|
+|Tortellini	|3	|2	|4	|10	|16	|14|
+|Fettuccine Alfredo	|2	|2,5	|3	|11	|14	|10|
+Qtde. = Quantidade de avaliações recebidas nos respectivos meses.
+
+![Metrica1](img/Metrica1.jpg)
+![Metrica2](img/Metrica2.jpg)
+
+Ravioli Frito e Lulas são os pratos mais vendidos, eles podem se tornar as indicações da casa para o cliente.
+Fettuccine Alfredo e Spaghetti Sisco são os menos vendidos, podem ser sugeridos para serem substituídos no cardápio.
+
+![Metrica3](img/Metrica3.jpg)
+
+Baseado nas avaliações dos clientes, podem ser feitas promoções e campanhas para que os clientes conheçam o sanduiche de filé e a massa de vegetais. Principalmente a massa de vegetais que não tem sido comprada, mas é altamente avaliada. Esse pode se tornar um dos carros chefes da casa.
+
+Ao todo, no primeiro trimestre o restaurante Alfredo arrecadou R$11.074,00. R$1.771,84 ficando para o DriveXpress. Por mês, a arrecadação do DriveXpress com o Alfredo é mostrada abaixo. O gráfico mostra que a arrecadação com o parceiro restaurante Alfredo está crescendo, esse é um parceiro a ser valorizado.
+
+![Metrica4](img/Metrica4.jpg)
+
+Esse mesmo exemplo do Alfredo pode ser usado com os demais restaurantes da plataforma, desenhando as estratégias do DriveXpress. Abaixo um exemplo do crescimento do faturamento do aplicativo ao longo do primeiro trimestre com os seus parceiros.
+
+![Metrica5](img/Metrica5.jpg)
+
+As métricas acima mostram que o público alvo do DriveXpress tem maior interesse por lanches, comida japonesa e por fazer compras de mercado através do aplicativo. Dessa forma, esses são os parceiros que a equipe de crescimento deve procurar para fechar parcerias.
+
+A arrecadação mensal do DriveXpress foi:
+* Janeiro: R$ 177.419,30
+* Fevereiro: R$ 222.267,77
+* Março: R$ 229.883,06
+
 
 ## Requisitos
 
