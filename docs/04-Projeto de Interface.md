@@ -8,10 +8,17 @@ Em um universo cada vez mais conectado, a necessidade de interfaces intuitivas e
 
 O esquema de construção da página do site “DriveXpress” é exemplificado abaixo através do fluxograma 1. A interação entre o usuário e o site está indicada por meio das setas. 
 
+Diagrama de Fluxo Web
 
-![Exemplo de Wireframe](
+
+![Diagrama de Fluxo Web](
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/blob/8b7b6f4ea102c49cf7ad044fc816cb853b464dcf/docs/img/Copy%20of%20Diagrama_de_fluxo.png)
 
+
+Diagrama de Fluxo Mobile
+
+![Diagrama de Fluxo Mobile](
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/blob/561f8ea920429b1354abee05d460da401adb8347/docs/img/Diagrama_de_fluxo.png)
 
 ## Wireframes
 
