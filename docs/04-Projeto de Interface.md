@@ -34,7 +34,6 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerencia
 ![Cadastre um restaurante](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/blob/68e95e2cf2be8b5dbd1dfa95e1d0722d03747596/docs/img/tela_anna_3.jpg)
 ![Cadastre um restaurante](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/blob/68e95e2cf2be8b5dbd1dfa95e1d0722d03747596/docs/img/tela_anna_2.jpg)
 ![Cadastre um restaurante](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/blob/68e95e2cf2be8b5dbd1dfa95e1d0722d03747596/docs/img/tela_anna_1.jpg)
-![Telas de contatos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/blob/68e95e2cf2be8b5dbd1dfa95e1d0722d03747596/docs/img/tela_elder_1.jpg)
 ![Telas de contatos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/blob/68e95e2cf2be8b5dbd1dfa95e1d0722d03747596/docs/img/tela_elder_2.jpg)
 
 
