@@ -20,8 +20,11 @@ Diagrama de Fluxo Mobile
 ![Diagrama de Fluxo Mobile](
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/blob/561f8ea920429b1354abee05d460da401adb8347/docs/img/Diagrama_de_fluxo.png)
 
-## Wireframes
+## Wireframes Mobile
+A imagem abaixo mostra como as páginas do aplicativo mobile serão construídas.
+![HomePage](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/blob/68e95e2cf2be8b5dbd1dfa95e1d0722d03747596/docs/img/wireframeMobile.jpg)
 
+## Wireframes Web
 ![HomePage](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/blob/68e95e2cf2be8b5dbd1dfa95e1d0722d03747596/docs/img/tela_guilherme_1.jpg)
 ![HomePage](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/blob/68e95e2cf2be8b5dbd1dfa95e1d0722d03747596/docs/img/tela_guilherme_2.jpg)
 
