@@ -17,7 +17,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerencia
 
 Diagrama de Fluxo Mobile
 
-![Diagrama de Fluxo Mobile](docs/img/wireframeMobile.jpg)
+![Diagrama de Fluxo Mobile](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/blob/cf3a9f4e3fde976ff97d41f7d484e35dccf81463/docs/img/Diagrama_de_fluxo.png)
 
 ## Wireframes Mobile
 A imagem abaixo mostra como as páginas do aplicativo mobile serão construídas.
