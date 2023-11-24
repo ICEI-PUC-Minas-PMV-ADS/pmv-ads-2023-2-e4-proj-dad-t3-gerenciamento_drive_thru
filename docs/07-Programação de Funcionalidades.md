@@ -1,15 +1,87 @@
 # Programação de Funcionalidades
+## Visualização do cadastro do produto
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
+•	Nesta tela do sistema apresenta uma página para realizar o cadastro de produtos.
 
-Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
+•	Requisitos atendidos:
 
-Para cada requisito funcional, pode ser entregue um artefato desse tipo
+	RF - 04 - O site deve oferecer opções de filtro para os produtos e serviços prestados, bem como uma barra de busca por palavras-chave.
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+•	Artefatos da funcionalidade:
+
+	index.html
+
+	style.css
+
+ script.js
+
+	logo-tanamao.png
+
+•	Instruções de acesso:
+
+	Abra um navegador de Internet e informe a seguinte URL: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru
+
+	A tela de cadastro de produtos permitir que o gerente cadastre tarefas
+
+	A página será exibida no Local Storage.
+
+
+
+## Visualização do Login
+
+•	Esta tela do sistema conta com campos para autenticação de usuário e senha.
+
+•	Requisitos atendidos:
+
+ RF - 03 - O site deve possuir uma página de login com usuário e senha.
+
+•	Artefatos da funcionalidade:
+
+	index.html
+
+	style.css
+
+	script.js
+
+	logo-tanamao.png
+
+•	Instruções de acesso:
+
+	Na página inicial encontra-se o botão logar, deve-se inserir o login e senha. Caso o usuário seja cadastrado, o login será feito;
+
+	Caso o usuário não seja cadastrado, o login não será feito, e uma mensagem de aviso será exibida;
+
+	O usuário pode clicar em inscrever-se e uma nova tela será exibida.
+
+
+
+## Cadastro de usuários
+
+•	Esta tela do sistema conta com campos para autenticação de usuário e senha.
+
+•	Requisitos atendidos:
+
+	RF - 09 - O consumidor poderá realizar cadastro no sistema.
+
+	RF – 16 - O gerente poderá criar e remover cadastro de funcionários.
+
+•	Artefatos da funcionalidade:
+
+	index.html
+
+	style.css
+
+	script.js
+
+	logo-tanamao.png
+
+•	Instruções de acesso:
+
+	Na tela de login o usuário deve clicar em inscrever-se e uma nova tela será exibida.
+
+	Os seguintes dados devem ser inseridos: nome, e-mail, senha e CPF.
+
+	O usuário cliente deve clicar em “cliente” para que o cadastro seja concluído e então haverá um e-mail de confirmação.
+
+	Caso clique em funcionário ou gerente, um pop-up aparecerá para que o login como gerente seja realizado primeiro.
+
