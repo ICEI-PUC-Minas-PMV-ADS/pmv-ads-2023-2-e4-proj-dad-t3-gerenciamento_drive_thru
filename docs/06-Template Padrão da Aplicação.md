@@ -59,6 +59,73 @@ Neste espaço você entende como entra em contato e entende melhor o driveXpress
 
 
 
+11. MODELO PADRÃO DA APLICAÇÃO MOBILE
+
+O Template desenvolvido visa facilitar a interação do usuário com os produtos desejados, disponibilizando a visualização dos principais restaurantes, assim como a infraestrutura para facilitar a realização dos pedidos. Dentro do aplicativo, são disponibilizados filtros como tipos de comida e bebidas separadas por categoria.
+
+•	TELAS PRIMÁRIAS
+
+11.1. Tela Home Page
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/a3c268cb-24ff-40e0-bba5-a7c7abbf44d3)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/648635f5-2e56-49ef-94fb-01932da61d01) 	         
+Figura 11.1 – Tela Home Page
+ 
+11.2. Tela Restaurantes
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/39320aeb-999a-43e2-a64c-103e90d10f9e)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/ad5331ff-7b72-446a-8e89-efdf090ab33e)
+Figura 11.2 – Tela Restaurantes
+ 
+11.3. Tela Pesquisar
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/72a894fa-6c97-49bc-bf41-beb299b54e4e)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/dd4157a2-06b0-4ae9-a2a2-cc93e1cc3348)   	            
+Figura 11.3 – Tela Pesquisar
+
+
+
+ 
+11.4. Tela Carrinho de compras
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/d496d250-719f-4641-8138-b3277cf7d174)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/cca18eb3-3786-46c8-bcc4-6f888f6d36e0) 	          
+Figura 11.4 – Tela Carrinho de pedidos
+ 
+11.5. Tela Contatos
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/47d0d74f-f486-48a4-98ff-c83d0353043e)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/4da86940-c30b-4c03-9515-fb2e810561c6)   	         
+Figura 11.5 – Tela Contatos 
+
+ 
+11.6. Tela Caixa de sugestão
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/5166149a-a68c-421c-9792-eba112793642)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/bad92012-f175-459a-9a49-9895d105cc40)               
+Figura 11.6 – Tela Caixa de sugestão
+ 
+11.7. Tela Chat Sac DriveXpress
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/a59af235-51a0-4647-b2b6-b015cf01c438)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/7d9ae60b-ea76-4683-a2a5-68d9686f477e) 	      
+Figura 11.7 – Tela Chat SAC DriveXpress 
+ 
+11.8. Tela Termos de uso
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/1f3ef74b-3dce-4768-a27b-37b80598c5e9)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/f12e1cf7-9616-44eb-9c5f-f67099d4c470)                
+Figura 11.8 – Tela Termos de uso
+
+ 
+11.9. Tela Cadastro de usuários
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/6d291220-5a4f-4ac8-ac1a-2a56ec4ffbc5)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/6e4bb8a0-4901-4dad-aeb9-ab8056f1dc76)
+                  
+Figura 11.9 – Tela Cadastro do usuário
+ 
+11.10. Tela Login
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/143d0fbe-3bf2-49a4-8b55-8337bec182ca)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/f1121cc8-9b5d-492c-b1e9-b5425ff6593e)
+     
+Figura 11.10 – Tela Login
+
+
 
 
 
