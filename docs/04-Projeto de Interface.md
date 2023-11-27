@@ -38,3 +38,12 @@ A imagem abaixo mostra como as páginas do aplicativo mobile serão construídas
 ![Telas de contatos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/blob/68e95e2cf2be8b5dbd1dfa95e1d0722d03747596/docs/img/tela_elder_2.jpg)
 
 
+
+DIAGRAMA DE FLUXO – TELAS MOBILE
+
+O esquema de construção das páginas do app “DriveXpress” é exemplificado abaixo através do fluxograma 1. A interação entre o usuário e o site está indicada por meio das setas.
+O diagrama contido na imagem abaixo, mostra o fluxo inicial do aplicativo. É possível visualizar as telas cadastro do usuário e login. Após a autenticação do usuário no sistema, é liberado o acesso aos restaurantes e pedidos ofertados dentro da plataforma DriveXpress. Após a escolha dos pedidos, o usuário tem acesso à página que agrupa os pedidos solicitados.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/d4f34a6a-bd52-48d1-bf58-58a35a19eb3e)
+
+
