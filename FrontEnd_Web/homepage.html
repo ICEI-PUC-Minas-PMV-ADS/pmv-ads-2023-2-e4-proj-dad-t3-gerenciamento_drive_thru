@@ -38,31 +38,12 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="homepage.html">Home</a></li>
-          <li><a href="restaurantes.html">Restaurantes</a></li>
-          <li><a href="produtos.html">Produtos</a></li>
-          <li class="dropdown"><a href="#"><span>Comidas</span> <i
-                class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a href="#">Doces</a></li>
-              <li><a href="#">Gourmet</a></li>
-              <li><a href="#">Japonesa</a></li>
-              <li><a href="#">Mercado</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#"><span>Bebidas</span> <i
-                class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a href="#">Água</a></li>
-              <li><a href="#">Bebidas Alcoólicas</a></li>
-              <li><a href="#">Sucos</a></li>
-              <li><a href="#">Refrigerantes</a></li>
-            </ul>
-          </li>
+          <li><a href="restaurantes.html">Cadastre seu Restaurante</a></li>
           <li><a href="informacoes.html">Informações</a></li>
         </ul>
       </nav>
 
-      <a class="btn-book-a-table" href="#book-a-table">Login</a>
+      <a class="btn-book-a-table" href="login.html">Login</a>
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
@@ -77,7 +58,7 @@
           <h2 data-aos="fade-up">DriveXpress</h2>
           <p data-aos="fade-up" data-aos-delay="100">O seu caminho para a eficiência!</p>
           <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-            <a href="#book-a-table" class="btn-book-a-table">Faça seu cadastro aqui</a>
+            <a href="restaurantes.html" class="btn-book-a-table">Faça seu cadastro aqui</a>
           </div>
         </div>
         <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
@@ -167,70 +148,6 @@
         </div>
       </div>
     </section>
-
-    <section id="book-a-table" class="book-a-table">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-header">
-          <h2>Faça seu cadastro</h2>
-          <p>Cadastra-se!</p>
-        </div>
-
-        <div class="row g-0">
-
-          <div class="col-lg-4 reservation-img" style="background-image: url(assets/img/reservation.jpg);"
-            data-aos="zoom-out" data-aos-delay="200"></div>
-
-          <div class="col-lg-8 d-flex align-items-center reservation-form-bg">
-            <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up"
-              data-aos-delay="100">
-              <div class="row gy-4">
-                <div class="col-lg-4 col-md-6">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Seu Name"
-                    data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-                  <div class="validate"></div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Seu Email"
-                    data-rule="email" data-msg="Please enter a valid email">
-                  <div class="validate"></div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <input type="text" class="form-control" name="phone" id="phone" placeholder="Seu número"
-                    data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-                  <div class="validate"></div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <input type="text" name="date" class="form-control" id="date" placeholder="CPF" data-rule="minlen:4"
-                    data-msg="Please enter at least 4 chars">
-                  <div class="validate"></div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <input type="text" class="form-control" name="time" id="time" placeholder="Data de Nascimento"
-                    data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-                  <div class="validate"></div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <input type="text" class="form-control" name="people" id="people" placeholder="Observação"
-                    data-rule="minlen:1" data-msg="Please enter at least 1 chars">
-                  <div class="validate"></div>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Mensagem"></textarea>
-                <div class="validate"></div>
-              </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm
-                  your reservation. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Enviar</button></div>
-            </form>
-          </div>
-        </div>
-      </div>
   </main>
 
   <footer id="footer" class="footer">

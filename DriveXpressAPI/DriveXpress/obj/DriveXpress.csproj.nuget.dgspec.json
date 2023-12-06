@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 4\\Projeto\\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\\DriveXpress\\DriveXpress\\DriveXpress.csproj": {}
+    "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 4\\Projeto\\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\\DriveXpressAPI\\DriveXpress\\DriveXpress.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 4\\Projeto\\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\\DriveXpress\\DriveXpress\\DriveXpress.csproj": {
+    "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 4\\Projeto\\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\\DriveXpressAPI\\DriveXpress\\DriveXpress.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 4\\Projeto\\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\\DriveXpress\\DriveXpress\\DriveXpress.csproj",
+        "projectUniqueName": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 4\\Projeto\\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\\DriveXpressAPI\\DriveXpress\\DriveXpress.csproj",
         "projectName": "DriveXpress",
-        "projectPath": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 4\\Projeto\\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\\DriveXpress\\DriveXpress\\DriveXpress.csproj",
+        "projectPath": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 4\\Projeto\\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\\DriveXpressAPI\\DriveXpress\\DriveXpress.csproj",
         "packagesPath": "C:\\Users\\mfern\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 4\\Projeto\\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\\DriveXpress\\DriveXpress\\obj\\",
+        "outputPath": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 4\\Projeto\\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\\DriveXpressAPI\\DriveXpress\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mfern\\AppData\\Roaming\\NuGet\\NuGet.Config",

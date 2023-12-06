@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\DriveXpress",
+    "\\DriveXpress\\Models",
     "\\DriveXpress\\Properties"
   ],
-  "SelectedNode": "\\DriveXpress\\Properties\\launchSettings.json",
+  "SelectedNode": "\\DriveXpress\\Models\\Produto.cs",
   "PreviewInSolutionExplorer": false
 }

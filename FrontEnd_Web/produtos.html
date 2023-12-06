@@ -51,20 +51,18 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="homepage.html">Home</a></li>
-          <li><a href="restaurantes.html">Restaurantes</a></li>
-          <li><a href="#menu">Cadastrar um Produto</a></li>
-          <li class="dropdown"><a href="#"><span>Minha Conta</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li><a href="">Pedidos</a></li>
+          <li><a href="produtos.html">Cadastrar um Produto</a></li>
+          <li class="dropdown"><a><span>Minha Conta</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="#">Meus Dados</a></li>
-              <li><a href="tipos_produtos.html">Gerenciar produtos</a></li>
-              <li><a href="#">Sair</a></li>
+              <li><a href="homepage.html">Sair</a></li>
             </ul>
           </li>
           <li><a href="informacoes.html">Informações</a></li>
         </ul>
       </nav>
 
-      <a class="btn-book-a-table" href="#">Login</a>
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
@@ -128,14 +126,14 @@
 
                     <div class="col-lg-4 col-md-6">
                       <span class="input-group-text">R$</span>
-                      <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="Preço" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+                      <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" id='preco' placeholder="Preço" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
                       <div class="validate"></div>
                     </div>
 
                   </div>
 
                   <div class="form-group mt-3">
-                    <textarea class="form-control" name="descricao" rows="5" placeholder="Descrição do Produto"></textarea>
+                    <textarea class="form-control" name="descricao" rows="5" id="descricao" placeholder="Descrição do Produto"></textarea>
                     <div class="validate"></div>
                   </div>
 
@@ -144,7 +142,7 @@
                     <input type="file" class="form-control-file" id="imagem">
                   </div>
 
-                  <button class="btn btn-outline-secondary" type="button" id="button-addon2">Cadastrar Produto</button>
+                  <button class="btn btn-outline-secondary" type="button" id="cadastrar">Cadastrar Produto</button>
 
                 </form>
 
@@ -166,7 +164,7 @@
                 <label for="floatingSelect">Produtos</label>
               </div>
 
-              <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
+              <form action="forms/book-a-table.php" method="delete" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
 
                 <button class="btn btn-outline-secondary" type="button" id="button-addon2">Excluir</button>
 
@@ -184,7 +182,7 @@
 
             <div class="row gy-5">
 
-              <div class="form-floating">
+              <div id= 'produtos' class="form-floating">
                 <select id="selectProduct" class="form-select" id="floatingSelect" aria-label="Floating label select example">
                 </select>
                 <label for="floatingSelect">Produtos</label>
