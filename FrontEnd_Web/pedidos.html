@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -74,7 +75,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Cadastre um produto</h2>
+          <h2>Pedidos</h2>
           <p>Olhe os nossos pratos<span> melhores pratos</span></p>
         </div>
 
@@ -82,77 +83,50 @@
 
           <li class="nav-item">
             <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-starters">
-              <h4>Cadastrar Produtos</h4>
+              <h4>Em andamento</h4>
             </a>
           </li>
 
           <li class="nav-item">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-breakfast">
-              <h4>Excluir Produtos</h4>
+              <h4>Finalizados</h4>
             </a>
-
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-lunch">
-              <h4>Editar Produtos</h4>
-            </a>
-          </li>
-
         </ul>
 
         <div class="tab-content" data-aos="fade-up" data-aos-delay="300">
 
-          <div class="tab-pane fade active show" id="menu-starters"><!-- Cadastrar Produtos -->
+          <div class="tab-pane fade active show" id="menu-starters"><!-- Pedidos em andamento -->
 
             <div class="tab-header text-center">
-              <p>Cadastrar</p>
-              <h3>Produtos</h3>
+              <p>Pedidos em</p>
+              <h3>Andamento</h3>
             </div>
 
             <div class="row gy-5">
 
-                <div class="form-floating">
-                  <select id="selectProduct" class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                  </select>
-                  <label for="floatingSelect">Produtos</label>
-                </div>
-                
-                <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
-                  <div class="row gy-4">
-                    <div class="col-lg-4 col-md-4">
-                      <input type="text" name="name" class="form-control" id="name" placeholder="Nome do Produto" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-                      <div class="validate"></div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                      <span class="input-group-text">R$</span>
-                      <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" id='preco' placeholder="Preço" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
-                      <div class="validate"></div>
-                    </div>
-
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Pedido 1
+                    </label>
                   </div>
-
-                  <div class="form-group mt-3">
-                    <textarea class="form-control" name="descricao" rows="5" id="descricao" placeholder="Descrição do Produto"></textarea>
-                    <div class="validate"></div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Pedido 2
+                    </label>
                   </div>
-
-                  <div class="form-group">
-                    <label for="imagem">Imagem do Produto:</label>
-                    <input type="file" class="form-control-file" id="imagem">
-                  </div>
-
-                  <button class="btn btn-outline-secondary" type="button" id="cadastrar">Cadastrar Produto</button>
-
+                  <button class="btn btn-outline-secondary" type="button" id="cadastrar">Finalizar pedido</button>
                 </form>
 
             </div>
-          </div><!-- Cadastrar Produtos -->
+          </div><!-- Pedidos em andamento -->
 
-          <div class="tab-pane fade" id="menu-breakfast"><!-- Excluir Produtos -->
+          <div class="tab-pane fade" id="menu-breakfast"><!-- Pedidos -->
 
             <div class="tab-header text-center">
-              <p>Excluir</p>
-              <h3>Produtos</h3>
+              <p>Pedidos</p>
+              <h3>Finalizados</h3>
             </div>
 
             <div class="row gy-5">
@@ -160,12 +134,12 @@
               <div class="form-floating">
                 <select id="selectProduct" class="form-select" id="floatingSelect" aria-label="Floating label select example">
                 </select>
-                <label for="floatingSelect">Produtos</label>
+                <label for="floatingSelect">Pedidos #</label>
               </div>
 
               <form action="forms/book-a-table.php" method="delete" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
 
-                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Excluir</button>
+                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Detalhes</button>
 
               </form>
 
@@ -219,6 +193,7 @@
 
   </main>
 
+<!-- Footer -->
   <footer id="footer" class="footer">
 
     <div class="container">
