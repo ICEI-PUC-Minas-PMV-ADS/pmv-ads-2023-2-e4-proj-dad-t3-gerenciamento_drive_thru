@@ -56,4 +56,12 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Apresentação
 
-<li><a href="presentation/README.md"> Apresentação da solução</a></li>
+<li><a href="presentation/README.md"> DriveXpress </a></li>
+
+<a>Bem vindo ao Drivexpress, seu aplicativo de entrega de comida! Se você está saboreando novos pratos e deseja obter as melhores recomendações de restaurantes e informações sobre opções disponíveis, você veio ao lugar certo.
+
+O Driveexpress é um aplicativo de entrega de comida projetado para atender às necessidades dos amantes da gastronomia, fornecendo um conjunto abrangente de recursos para facilitar sua experiência culinária. Com uma interface intuitiva e fácil de usar, o aplicativo oferece uma vasta gama de informações sobre cada restaurante, permitindo que você descubra e aproveite ao máximo suas refeições. Ao abrir o Drivexpress, você terá acesso a uma extensa lista de opções gastronômicas, desde pratos tradicionais até culinárias internacionais e sabores únicos.
+
+Além disso, o aplicativo também pode filtrar e pesquisar essas opções de acordo com suas preferências e necessidades, facilitando a escolha e a entrega de refeições deliciosas durante o seu dia.
+
+Então, se você está pronto para saborear novos pratos e desfrutar de uma experiência gastronômica incrível, venha conhecer o Driveexpress agora e comece a planejar sua próxima refeição! </a>
