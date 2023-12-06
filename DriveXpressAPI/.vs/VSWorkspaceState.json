@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\DriveXpress",
+    "\\DriveXpress\\Controllers",
     "\\DriveXpress\\Models",
     "\\DriveXpress\\Properties"
   ],
-  "SelectedNode": "\\DriveXpress\\Models\\Produto.cs",
+  "SelectedNode": "\\DriveXpress\\Controllers\\UsuariosController.cs",
   "PreviewInSolutionExplorer": false
 }
