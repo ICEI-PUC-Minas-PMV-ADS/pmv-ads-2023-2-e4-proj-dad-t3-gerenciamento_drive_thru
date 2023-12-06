@@ -49,7 +49,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 #### Para visualizar a solução no ambiente online Expo, copie e cole o link abaixo em seu navegador:<br>
 <br>
-<li><a href="src/README.md">https://snack.expo.dev/@annafreitask/app-drivexpress-</a></li>
+<li><a href="src/README.md">https://snack.expo.dev/@annafreitask/appdrivexpress_</a></li>
 
 
 
