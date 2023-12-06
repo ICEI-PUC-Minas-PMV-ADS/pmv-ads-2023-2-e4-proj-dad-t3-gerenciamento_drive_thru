@@ -1,4 +1,4 @@
-# GERENCIAMENTO DRIVE THRU- DriveXpress
+# GERENCIAMENTO DRIVE THRU - DriveXpress
 
 `Análise e Desenvolvimento de Sistemas - PUC MINAS`
 
@@ -45,7 +45,14 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Código
 
-<li><a href="src/README.md"> Código Fonte</a></li>
+<li><a href="src/README.md"> Código Fonte </a></li>
+
+#### Para visualizar a solução no ambiente online Expo, copie e cole o link abaixo em seu navegador:<br>
+<br>
+<li><a href="src/README.md">https://snack.expo.dev/@annafreitask/app-drivexpress-</a></li>
+
+
+
 
 # Apresentação
 
