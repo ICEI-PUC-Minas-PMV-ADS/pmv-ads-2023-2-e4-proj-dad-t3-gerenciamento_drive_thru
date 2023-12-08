@@ -20,7 +20,7 @@ namespace DriveXpress.Controllers
             _context = context;
         }
 
-        [Authorize(Roles = "Gerente,Funcionario,Cliente")]
+        //[Authorize(Roles = "Gerente,Funcionario,Cliente")]
         [HttpGet]
         public async Task<ActionResult> GetAll()
         {
@@ -28,7 +28,7 @@ namespace DriveXpress.Controllers
             return Ok(model);
         }
 
-        [Authorize(Roles = "Gerente")]
+        //[Authorize(Roles = "Gerente")]
         [HttpPost]
         public async Task<ActionResult> Create(Restaurante model)
         {
@@ -38,7 +38,7 @@ namespace DriveXpress.Controllers
             return CreatedAtAction("GetById", new {id = model.Id}, model);
         }
 
-        [Authorize(Roles = "Gerente")]
+        //[Authorize(Roles = "Gerente")]
         [HttpGet("{id}")]
         public async Task<ActionResult> GetById(int id)
         {
@@ -53,7 +53,7 @@ namespace DriveXpress.Controllers
             return Ok(model);
         }
 
-        [Authorize(Roles = "Gerente")]
+        //[Authorize(Roles = "Gerente")]
         [HttpPut("{id}")]
         public async Task<ActionResult> Update(int id, Restaurante model)
         {
@@ -70,7 +70,7 @@ namespace DriveXpress.Controllers
             
         }
 
-        [Authorize(Roles = "Gerente")]
+        //[Authorize(Roles = "Gerente")]
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(int id)
         {
