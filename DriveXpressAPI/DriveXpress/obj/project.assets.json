@@ -2531,19 +2531,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mfern\\.nuget\\packages\\": {}
+    "C:\\Users\\Windows 10\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 4\\Projeto\\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\\DriveXpressAPI\\DriveXpress\\DriveXpress.csproj",
+      "projectUniqueName": "D:\\Users\\Windows 10\\Desktop\\Last\\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\\DriveXpressAPI\\DriveXpress\\DriveXpress.csproj",
       "projectName": "DriveXpress",
-      "projectPath": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 4\\Projeto\\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\\DriveXpressAPI\\DriveXpress\\DriveXpress.csproj",
-      "packagesPath": "C:\\Users\\mfern\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 4\\Projeto\\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\\DriveXpressAPI\\DriveXpress\\obj\\",
+      "projectPath": "D:\\Users\\Windows 10\\Desktop\\Last\\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\\DriveXpressAPI\\DriveXpress\\DriveXpress.csproj",
+      "packagesPath": "C:\\Users\\Windows 10\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\Windows 10\\Desktop\\Last\\pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru\\DriveXpressAPI\\DriveXpress\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\mfern\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Windows 10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2551,6 +2558,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2615,7 +2623,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }
