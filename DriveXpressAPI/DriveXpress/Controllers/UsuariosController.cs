@@ -21,7 +21,7 @@ namespace DriveXpress.Controllers
             _context = context;
         }
 
-        [Authorize(Roles = "Gerente")]
+        //[Authorize(Roles = "Gerente")]
         [HttpGet]
         public async Task<ActionResult> GetAll()
         {
@@ -29,7 +29,7 @@ namespace DriveXpress.Controllers
             return Ok(model);
         }
 
-        [AllowAnonymous]
+        //[AllowAnonymous]
         [HttpPost]
         public async Task<ActionResult> Create(UsuarioDto model)
         {
@@ -47,7 +47,7 @@ namespace DriveXpress.Controllers
             return CreatedAtAction("GetById", new { id = novo.Id }, novo);
         }
 
-        [Authorize(Roles = "Cliente")]
+        //[Authorize(Roles = "Cliente")]
         [HttpGet("{id}")]
         public async Task<ActionResult> GetById(int id)
         {
@@ -60,7 +60,7 @@ namespace DriveXpress.Controllers
             return Ok(model);
         }
 
-        [Authorize(Roles = "Cliente")]
+        //[Authorize(Roles = "Cliente")]
         [HttpPut("{id}")]
         public async Task<ActionResult> Update(int id, UsuarioDto model)
         {
@@ -82,7 +82,7 @@ namespace DriveXpress.Controllers
 
         }
 
-        [Authorize(Roles = "Cliente")]
+        //[Authorize(Roles = "Cliente")]
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(int id)
         {
@@ -104,7 +104,7 @@ namespace DriveXpress.Controllers
 
         }
 
-        [AllowAnonymous]
+        //[AllowAnonymous]
         [HttpPost("authenticate")]
         public async Task<ActionResult> Authenticate(AuthenticateDto model)
         {
