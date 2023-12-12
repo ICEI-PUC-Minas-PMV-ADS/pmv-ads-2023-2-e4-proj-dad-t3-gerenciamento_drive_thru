@@ -3,7 +3,7 @@
 **Plano de Testes de Usabilidade para Website de Gerenciamento de Restaurante**
 
 **Objetivo:**
-Este plano tem como objetivo garantir que o website de gerenciamento de restaurante forneça uma experiência de usuário eficiente e satisfatória, otimizando a interação do usuário com as funcionalidades de gerenciamento de dados e produtos.
+Este plano tem como objetivo garantir que o website de gerenciamento de restaurante forneça uma experiência de usuário eficiente e satisfatória, otimizando a interação do usuário com as funcionalidades de gerenciamento de dados e produtos.<br>
 **Metodologia:**
 Serão realizados testes de usabilidade com usuários representativos, incluindo gerentes de restaurantes e membros da equipe responsáveis pelo gerenciamento de dados.
 
