@@ -1,4 +1,4 @@
-# GERENCIAMENTO DRIVE THRU
+# GERENCIAMENTO DRIVE THRU - DriveXpress
 
 `Análise e Desenvolvimento de Sistemas - PUC MINAS`
 
@@ -6,7 +6,12 @@
 
 `4º Semestre`
 
-Nossa aplicação distribuída tem como objetivo simplificar e otimizar a experiência dos clientes no drive thru. Ao oferecer uma solução intuitiva e eficaz, estamos transformando a maneira como os pedidos são feitos nesse ambiente. Com a aplicação, os clientes podem realizar seus pedidos de forma rápida e conveniente, utilizando a tecnologia para agilizar o processo.
+<p>    Nossa aplicação distribuída representa uma abordagem inovadora no sentido de simplificar e otimizar a experiência dos clientes no cenário do drive-thru. O cerne de nossa missão é fornecer uma solução que seja não apenas intuitiva, mas também incrivelmente eficaz, visando transformar fundamentalmente a dinâmica dos pedidos nesse ambiente específico. Ao alavancar a tecnologia, buscamos não apenas automatizar, mas aprimorar significativamente o processo de realização de pedidos.</p>
+
+<p>    Ao adotar nossa aplicação, os restaurantes têm à disposição uma ferramenta completa para gerenciamento eficiente de seus dados e produtos. A interface intuitiva permite ajustes rápidos no cardápio, horários de funcionamento e outras configurações essenciais. Além disso, a gestão de pedidos torna-se uma tarefa eficiente e em tempo real, possibilitando uma operação mais ágil e focada no atendimento ao cliente.</p>
+
+<p>    Para os clientes, nossa aplicação oferece a comodidade de realizar pedidos de forma rápida e conveniente. A experiência do usuário é simplificada, permitindo a navegação intuitiva pelo menu, personalização de pedidos e conclusão eficaz do processo de compra. Estamos capacitando tanto restaurantes quanto clientes a abraçarem uma abordagem mais eficiente e moderna no universo do drive-thru, redefinindo a forma como a tecnologia pode aprimorar a interação nesse ambiente.</p>
+
 
 ## Integrantes
 
@@ -23,7 +28,23 @@ Nossa aplicação distribuída tem como objetivo simplificar e otimizar a experi
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+**Instruções para Visualização da Solução DriveXpress:**
+
+Para explorar a solução completa, o código-fonte final está disponível na branch "master" deste repositório. Siga as instruções abaixo para acessar componentes específicos da solução:
+
+A. **Backend (DriveXpress):**
+   - O código-fonte do backend está na pasta "DriveXpress". Lá, você encontrará a construção das APIs e o arquivo de testes de requisições HTTP no ambiente Insomnia.<br>
+     <br>
+B. **FrontEnd Web:**
+   - Os arquivos da interface do restaurante estão na pasta "FrontEnd Web". Aqui, você pode visualizar a interface para o processamento de dados do restaurante e seus produtos na plataforma DriveXpress.<br>
+     <br>
+C. **FrontEnd Mobile:**
+   - O desenvolvimento em React Native, hospedado no ambiente online Expo, está disponível na pasta "FrontEnd Mobile". Essa interface móvel é dedicada aos usuários, permitindo o gerenciamento de dados pessoais e pedidos.<br>
+     <br>
+D. **Visualização da Solução no Expo:**
+   - A solução Expo pode ser visualizada diretamente do seu navegador. Siga as instruções abaixo na seção "Código".<br>
+     <br>
+
 
 # Documentação
 
@@ -45,8 +66,33 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Código
 
-<li><a href="src/README.md"> Código Fonte</a></li>
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/cec4cafb-cdf1-4eab-98e4-235f983613e1)
+
+<img src='https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/e5b864df-6246-4fea-8894-4f220fa01fca' width='200'>
+<img src='https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/e28ac8ac-ed52-484a-978e-d38709547245' width='200'>
+<img src='https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/75829e77-f2b9-484d-8058-8716b1e626d0' width='200'>
+<img src='https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/5fc45e2c-c3d9-45d9-b20e-1a41613a746c' width='200'>
+
+#### Para visualizar a solução mobile no ambiente online Expo, copie e cole o link abaixo em seu navegador:<br>
+
+<li><a href="src/README.md">https://snack.expo.dev/@annafreitask/appdrivexpress_</a></li>
 
 # Apresentação
 
-<li><a href="presentation/README.md"> Apresentação da solução</a></li>
+<li><a href="presentation/README.md"> DriveXpress </a></li>
+<br>
+
+<a>Bem vindo ao DriveXpress, seu novo aplicativo favorito de comida! Se você está saboreando novos pratos e deseja obter as melhores recomendações de restaurantes e informações sobre opções disponíveis, você veio ao lugar certo.
+
+O DriveXpress é um sistema voltado para o gerenciamento de restaurantes que operam no modelo de funcionamento DriveThru.  Projetado para atender às necessidades dos estabelecimentos do ramo alimentício e conectar os amantes da culinária, fornece um conjunto abrangente de recursos para facilitar sua experiência gastronômica. Com uma interface intuitiva e fácil de usar, o aplicativo oferece uma vasta gama de informações sobre cada restaurante, permitindo que você descubra e aproveite ao máximo suas refeições. Ao abrir o Drivexpress, você terá acesso a uma extensa lista de opções gastronômicas, desde pratos tradicionais até culinárias internacionais e sabores únicos.
+
+Além disso, o aplicativo também pode filtrar e pesquisar essas opções de acordo com suas preferências e necessidades, facilitando a escolha e a entrega de refeições deliciosas durante o seu dia.
+
+Então, se você está pronto para saborear novos pratos e desfrutar de uma experiência gastronômica incrível, venha conhecer o DriveXpress agora e comece a planejar sua próxima refeição!
+</a>
+
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/4580423c-901f-4388-80a9-04262c2aed7e
+
+
