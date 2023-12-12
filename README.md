@@ -66,8 +66,12 @@ D. **Visualização da Solução no Expo:**
 
 # Código
 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/cec4cafb-cdf1-4eab-98e4-235f983613e1)
+
+
 ![HomePage](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/77c03fd3-a12b-4d56-bbd7-43d12f925b31)
 ![Restaurante 01](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/e28ac8ac-ed52-484a-978e-d38709547245)
+![Carrinho 03](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/587272b4-1ddc-4e1f-8725-8ffbbe375b8f)
 ![ChatSac 03](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/6a4d807e-5e41-4a0f-8f4a-07d29e5db9c0)
 
 #### Para visualizar a solução mobile no ambiente online Expo, copie e cole o link abaixo em seu navegador:<br>
@@ -79,13 +83,14 @@ D. **Visualização da Solução no Expo:**
 <li><a href="presentation/README.md"> DriveXpress </a></li>
 <br>
 
-<a>Bem vindo ao Drivexpress, seu aplicativo de entrega de comida! Se você está saboreando novos pratos e deseja obter as melhores recomendações de restaurantes e informações sobre opções disponíveis, você veio ao lugar certo.
+<a>Bem vindo ao DriveXpress, seu novo aplicativo favorito de comida! Se você está saboreando novos pratos e deseja obter as melhores recomendações de restaurantes e informações sobre opções disponíveis, você veio ao lugar certo.
 
-O Driveexpress é um aplicativo de entrega de comida projetado para atender às necessidades dos amantes da gastronomia, fornecendo um conjunto abrangente de recursos para facilitar sua experiência culinária. Com uma interface intuitiva e fácil de usar, o aplicativo oferece uma vasta gama de informações sobre cada restaurante, permitindo que você descubra e aproveite ao máximo suas refeições. Ao abrir o Drivexpress, você terá acesso a uma extensa lista de opções gastronômicas, desde pratos tradicionais até culinárias internacionais e sabores únicos.
+O DriveXpress é um sistema voltado para o gerenciamento de restaurantes que operam no modelo de funcionamento DriveThru.  Projetado para atender às necessidades dos estabelecimentos do ramo alimentício e conectar os amantes da culinária, fornece um conjunto abrangente de recursos para facilitar sua experiência gastronômica. Com uma interface intuitiva e fácil de usar, o aplicativo oferece uma vasta gama de informações sobre cada restaurante, permitindo que você descubra e aproveite ao máximo suas refeições. Ao abrir o Drivexpress, você terá acesso a uma extensa lista de opções gastronômicas, desde pratos tradicionais até culinárias internacionais e sabores únicos.
 
 Além disso, o aplicativo também pode filtrar e pesquisar essas opções de acordo com suas preferências e necessidades, facilitando a escolha e a entrega de refeições deliciosas durante o seu dia.
 
-Então, se você está pronto para saborear novos pratos e desfrutar de uma experiência gastronômica incrível, venha conhecer o Driveexpress agora e comece a planejar sua próxima refeição! </a>
+Então, se você está pronto para saborear novos pratos e desfrutar de uma experiência gastronômica incrível, venha conhecer o DriveXpress agora e comece a planejar sua próxima refeição!
+</a>
 
 
 
