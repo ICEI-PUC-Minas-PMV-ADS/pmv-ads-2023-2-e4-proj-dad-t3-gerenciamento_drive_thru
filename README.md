@@ -68,10 +68,10 @@ D. **Visualização da Solução no Expo:**
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/cec4cafb-cdf1-4eab-98e4-235f983613e1)
 
-<img src='https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/e5b864df-6246-4fea-8894-4f220fa01fca' width='210'>
-<img src='https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/e28ac8ac-ed52-484a-978e-d38709547245' width='210'>
-<img src='https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/75829e77-f2b9-484d-8058-8716b1e626d0' width='210'>
-<img src='https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/5fc45e2c-c3d9-45d9-b20e-1a41613a746c' width='210'>
+<img src='https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/e5b864df-6246-4fea-8894-4f220fa01fca' width='250'>
+<img src='https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/e28ac8ac-ed52-484a-978e-d38709547245' width='250'>
+<img src='https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-gerenciamento_drive_thru/assets/103782980/75829e77-f2b9-484d-8058-8716b1e626d0' width='250'>
+
 
 #### Para visualizar a solução mobile no ambiente online Expo, copie e cole o link abaixo em seu navegador:<br>
 
